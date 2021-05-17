@@ -1,0 +1,59 @@
+section div.wide {
+    max-width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.text-block {
+    top: 0;
+    width: 60%;
+    font-size: 1.4rem;
+    position: sticky;
+}
+.apparatus-block {
+    top: 0;
+    font-size: 0.9em;
+    width: 40%;
+    padding-left: 2rem;
+    position: sticky;
+}
+
+.app {
+    margin-right: 2em;
+}
+
+.lem-inline {
+    text-decoration: underline wavy rgb(180,184,196);
+}
+
+.lem-inline:hover, .lem:hover {
+    text-decoration: none;
+    background: rgba(255,255,0,0.5);
+}
+
+.lem {
+    font-weight: bold;
+}
+
+.lem::after {
+    content: ']';
+}
+.highlit {
+    background: rgba(255,255,0,0.5);
+    text-decoration: none;
+}
+
+.rdg-text {
+}
+
+.rdg {
+}
+
+.rdg:not(:last-child)::after {
+    content: ';';
+}
+
+.rdg-wit {
+    font-variant: small-caps;
+    font-size: 0.8em;
+}

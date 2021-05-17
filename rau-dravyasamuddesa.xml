@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../lib/xslt/tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+        <titleStmt>
+            <title>Critical Edition of Wilhelm Rau (kārikās only)</title>
+            <title type="alt">Bhartṛhari's Vākyapadīya: Die Mūlakārikās nach den Handschriften herausgegeben und mit einem Pāda-Index versehen</title>
+            <editor>Wilhelm Rau</editor>
+        </titleStmt>
+        <publicationStmt>
+            <publisher>Steiner</publisher>
+            <date calendar="Gregorian">1977</date>
+            <pubPlace>Wiesbaden</pubPlace>
+        </publicationStmt>
+        <sourceDesc>
+
+            <msDesc xml:id="Sanskrit" xml:lang="en">
+                <msIdentifier>
+                    <idno type="siglum">R<sup>Ed</sup></idno>
+                </msIdentifier>
+
+                <msContents>
+                    <summary>This is a transcription of the <title xml:lang="sa">Drayvasamuddeśa</title> from the 1977 edition by Wilhelm Rau.</summary>
+
+                    <msItem n="1" defective="false">
+
+                        <author xml:lang="sa" role="author">Bhartṛhari</author>
+
+                        <title xml:lang="sa">Dravyasamuddeśa</title>
+
+                        <textLang mainLang="sa-Latn" otherLangs="de">Sanskrit in IAST transliteration. Prefatory material in German.</textLang>
+
+                    </msItem>
+                </msContents>
+
+                <physDesc>
+                    <objectDesc form="book">
+                        <supportDesc material="paper">
+                            <extent>  
+                                <measure quantity="359" unit="pages">XXI + 338.</measure>
+                                <dimensions type="leaf" unit="in">
+                                    <height>9</height>
+                                    <width>6</width>
+                                </dimensions>
+                            </extent>
+
+                            <foliation n="1" xml:id="original">Arabic numerals, top-left or top-right corner.</foliation>
+
+                        </supportDesc>
+
+                    </objectDesc>
+                    
+                    <bindingDesc>
+                        <p>Hardbound.</p>
+                    </bindingDesc>
+                </physDesc>
+
+                <history>
+                    <origin>
+                        <origDate calendar="Gregorian" when="1977">1977 CE</origDate>
+                        <origPlace>Germany</origPlace>
+                    </origin>
+                </history>
+
+            </msDesc>
+            <listWit resp="Rau">
+                <witness xml:id="REd-A"><idno type="siglum">A</idno></witness>
+                <witness xml:id="REd-C"><idno type="siglum">C</idno></witness>
+                <witness xml:id="REd-G"><idno type="siglum">G</idno></witness>
+                <witness xml:id="REd-d"><idno type="siglum">d</idno></witness>
+                <witness xml:id="REd-m"><idno type="siglum">m</idno></witness>
+                <witness xml:id="REd-p"><idno type="siglum">p</idno></witness>
+                <witness xml:id="REd-q"><idno type="siglum">q</idno></witness>
+                <witness xml:id="REd-r"><idno type="siglum">r</idno></witness>
+                <witness xml:id="REd-s"><idno type="siglum">s</idno></witness>
+                <witness xml:id="REd-H"><idno type="siglum">H</idno></witness>
+                <witness xml:id="REd-J"><idno type="siglum">J</idno></witness>
+                <witness xml:id="REd-L"><idno type="siglum">L</idno></witness>
+                <witness xml:id="REd-M4"><idno type="siglum">M<sup>4</sup></idno></witness>
+                <witness xml:id="REd-M5"><idno type="siglum">M<sup>5</sup></idno></witness>
+                <witness xml:id="REd-M6"><idno type="siglum">M<sup>6</sup></idno></witness>
+                <witness xml:id="REd-M11"><idno type="siglum">M<sup>11</sup></idno></witness>
+                <witness xml:id="REd-M12"><idno type="siglum">M<sup>12</sup></idno></witness>
+                <witness xml:id="REd-M13"><idno type="siglum">M<sup>13</sup></idno></witness>
+                <witness xml:id="REd-M14"><idno type="siglum">M<sup>14</sup></idno></witness>
+                <witness xml:id="REd-M16"><idno type="siglum">M<sup>16</sup></idno></witness>
+            </listWit>
+        </sourceDesc>
+    </fileDesc>
+
+    <revisionDesc>
+        <change when="2017-01-01">
+            <persName>Charles Li</persName>
+        </change>
+    </revisionDesc>
+</teiHeader>
+
+<text xml:lang="sa-Latn">
+    <body>
+            <milestone unit="page" n="116"/>
+      <head>III, 2</head>
+      <head type="sub">dravyasamuddeśaḥ</head>
+        <div1 n="1">
+            <lg type="verse" xml:id="v3.2.1">
+                <l>ātmā vastu svabhāvaś ca śarīraṃ tattvam ity api |</l>
+                <l>dravyam ity asya 
+                    <app><lem>paryāyās</lem>
+                         <rdg wit="#REd-C">paryāyā</rdg>
+                         <rdg wit="#REd-m #REd-L #REd-M13">paryāyas</rdg>
+                    </app> 
+                    tac ca nityam iti smṛtam || 1 || 111</l>
+            
+</lg>
+       </div1>
+        <div1 n="2">
+		    <lg type="verse" xml:id="v3.2.2">
+	            <l><app><lem>satyaṃ vastu</lem>
+                        <rdg wit="#REd-s #REd-M4 #REd-M12">satyavastu</rdg>
+                   </app> tadākārair asatyair avadhāryate |</l>
+	            <l>asatyopādhibhiḥ śabdaiḥ satyam evābhidhīyate || 2 || 112</l>
+		    </lg>
+	    </div1>
+        <div1 n="3">
+            <lg type="verse" xml:id="v3.2.3">
+                <l>adhruveṇa nimittena devadattagṛhaṃ yathā |</l>
+                <l>gṛhītaṃ gṛhaśabdena śuddham evābhidhīyate || 3 || 113</l>
+            </lg>
+        </div1>
+        <div1 n="4">
+            <lg type="verse" xml:id="v3.2.4">
+                <l>suvarṇādi ya<app><lem>thā yuktaṃ</lem>
+                                    <rdg wit="#REd-M4 #REd-M5 #REd-M6 #REd-M14 #REd-M16">thābhinnaṃ</rdg>
+                               </app> svair ākārair apāyibhiḥ |</l>
+                <l>rucakādyabhidhānānāṃ śuddham evaiti vācyatām || 4 || 114</l>
+            </lg>
+        </div1>
+        <div1 n="5">
+            <lg type="verse" xml:id="v3.2.5">
+                <l>ākāraiś ca vyavacchedāt sārvārthyam avarudhyate |</l>
+                <l>yathaiva cakṣurādīnāṃ sāmarthyaṃ nālikādibhiḥ || 5 || 115</l>
+            </lg>
+        </div1>
+        <div1 n="6">
+            <lg type="verse" xml:id="v3.2.6">
+                <l>teṣv ākāreṣu yaḥ śabdas tathābhūteṣu vartate |</l>
+                <l>tattvātmakatvāt tenāpi nityam evābhidhīyate || 6 || 116</l>
+            </lg>
+        </div1>
+        <div1 n="7">
+            <lg type="verse" xml:id="v3.2.7">
+                <l>na tattvātattvayor <app><lem>bheda</lem>
+                                           <rdg wit="#REd-C">bhedā</rdg>
+                                           <rdg wit="#REd-H">bhedaṃ</rdg>
+                                           <rdg wit="#REd-M4">bhede</rdg>
+                                      </app> iti vṛddhebhya āgamaḥ |</l>
+                <l>atattvam iti manyante tattvam evāvicāritam || 7 || 117</l>
+            </lg>
+        </div1>
+        <div1 n="8">
+            <lg type="verse" xml:id="v3.2.8">
+                <l>vikalparūpaṃ bhajate tattvam evāvikalpitam |</l>
+                <l>na cātra kālabhedo 'sti kālabhedaś ca gṛhyate || 8 || 118</l>
+            </lg>
+        </div1>
+        <div1 n="9">
+            <lg type="verse" xml:id="v3.2.9">
+                <l>yathā viṣayadharmāṇāṃ jñāne 'tyantam asaṃbhavaḥ |</l>
+                <l>tadā<app><lem>tmeva</lem>
+                            <rdg wit="#REd-A">tmaiva</rdg>
+                       </app> ca tat siddham atyantam atadātmakam || 9 || 119</l>
+            </lg>
+        </div1>
+        <div1 n="10">
+            <lg type="verse" xml:id="v3.2.10">
+                <l><app><lem>tathā</lem>
+                        <rdg wit="#REd-A #REd-s">yathā</rdg>
+                   </app> vikārarūpāṇāṃ tattve 'tyantam asaṃbhavaḥ |</l>
+                <l>tadātmeva ca tat tattvam atyantam atadātmakam || 10 || 120</l>
+            
+</lg>
+        </div1>
+        <div1 n="11">
+            <lg type="verse" xml:id="v3.2.11">
+                <l>satyam ākṛtisaṃhāre yad ante vyavatiṣṭhate |</l>
+                <l>tan nityaṃ śabdavācyaṃ tac cha<app><lem>bdāt tac ca na</lem>
+                                                      <rdg wit="#REd-q">bdāt tattvaṃ na</rdg>
+                                                 </app> bhidyate || 11 || 121</l>
+            </lg>
+        </div1>
+        <div1 n="12">
+            <lg type="verse" xml:id="v3.2.12">
+                <l>na tad asti na tan nāsti na tad ekaṃ na tat pṛthak |</l>
+                <l>na saṃsṛṣṭaṃ vibha<app><lem>ktaṃ na vikṛtaṃ na na cānyathā</lem>
+                                          <rdg wit="#REd-q">ktaṃ vā vikṛtaṃ na ca nānyathā</rdg>
+                                     </app> || 12 || 122</l>
+            
+            
+</lg>
+        </div1>
+        <div1 n="13" type="commentary">
+            <lg type="verse" xml:id="v3.2.13">
+                <l><lb n="117"/>tan nāsti vidyate tac ca tad ekaṃ tat pṛthak pṛthak |</l>
+                <l>saṃsṛṣṭaṃ ca vibhaktaṃ ca vikṛtaṃ tat tad anyathā || 13 || 123</l>
+            </lg>
+        </div1>
+        <div1 n="14">
+            <lg type="verse" xml:id="v3.2.14">
+                <l>tasya śabdārthasaṃbandharūpam ekasya dṛśyate |</l>
+                <l>tad dṛśyaṃ darśanaṃ draṣṭā darśane ca prayojanam || 14 || 124</l>
+            </lg>
+        </div1>
+        <div1 n="15">
+            <lg type="verse" xml:id="v3.2.15">
+                <l>vikārāpagame satyaṃ suvarṇaṃ kuṇḍale yathā |</l>
+                <l>vikārāpagame satyāṃ <app><lem>tathāhuḥ</lem>
+                                            <rdg wit="#REd-s">tadāhuḥ</rdg>
+                                            <rdg wit="#REd-p">tām āhuḥ</rdg>
+                                       </app> prakṛtiṃ parām || 15 || 125</l>
+            </lg>
+        </div1>
+        <div1 n="16">
+            <lg type="verse" xml:id="v3.2.16">
+                <l><pb n="230" /><app><lem>vācyā sā sa</lem>
+                                      <rdg wit="#REd-G"><add place="margin">vācyā sā sa</add></rdg>
+                                      <rdg wit="#REd-M4 #REd-M5 #REd-M6 #REd-M14 #REd-M16">vācyātmā sa</rdg>
+                                      <rdg wit="#REd-M11">vācyāśā sa</rdg>
+                                      <rdg wit="#REd-M13">sā vācyā sa</rdg></app>rvaśabdānāṃ śabdāś ca na pṛthak tataḥ |</l>
+                <l>apṛthaktve ca saṃbandhas tayor nānātmanor iva || 16 || 126</l>
+            
+            </lg>
+        </div1>
+        <div1 n="17">
+            <lg type="verse" xml:id="v3.2.17">
+                <l>ātmā <app><lem>paraḥ priyo</lem>
+                             <rdg wit="#REd-C">paripriyo</rdg>
+                             <rdg wit="#REd-r">parapriyo</rdg>
+                        </app> dveṣyo vaktā vācyaṃ prayojanam |</l>
+                <l>viruddhāni yathaikasya svapne rūpāṇi cetasaḥ || 17 || 127</l>
+            </lg>
+        </div1>
+        <div1 n="18">
+            <lg type="verse" xml:id="v3.2.18">
+                <l>ajanmani tathā nitye paurvāparyavivarjite |</l>
+                <l>tattve janmādirūpatvaṃ viruddham upalabhyate || 18 || 128</l>
+            </lg>
+        </div1>
+        <div1 type="end">
+        <p xml:id="end3.2">|| iti dravyasamuddeśaḥ ||</p>
+        </div1>
+        </body>
+    </text>
+</TEI>
