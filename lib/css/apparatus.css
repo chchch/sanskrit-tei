@@ -49,11 +49,11 @@ section div.wide {
 .rdg {
 }
 
-.rdg:not(:last-child)::after {
+.rdg:not(:last-child)::after, .lem-wit::after {
     content: ';';
 }
 
-.rdg-wit {
+.rdg-wit, .lem-wit {
     font-variant: small-caps;
     font-size: 0.8em;
 }

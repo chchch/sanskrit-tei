@@ -82,6 +82,14 @@
         <xsl:attribute name="class">lem</xsl:attribute>
         <xsl:apply-templates select="x:lem/node()"/>
     </span>
+    <xsl:if test="x:lem/@wit">
+        <span>
+            <xsl:attribute name="class">lem-wit</xsl:attribute>
+            <xsl:call-template name="splitwit">
+                <xsl:with-param name="mss" select="x:lem/@wit"/>
+            </xsl:call-template>
+        </span>
+    </xsl:if>
     <xsl:text> </xsl:text>
 </xsl:template>
 
