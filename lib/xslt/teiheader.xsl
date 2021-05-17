@@ -1119,6 +1119,32 @@
     </xsl:element>
 </xsl:template>
 
+<xsl:template match="x:biblStruct">
+    <xsl:element name="p">
+        <xsl:attribute name="class">bibliography</xsl:attribute>
+        <xsl:apply-templates select=".//x:author"/>
+        <xsl:apply-templates select=".//x:title"/><xsl:text>. </xsl:text>
+        <xsl:apply-templates select=".//x:imprint"/>
+        <xsl:apply-templates select=".//x:citedRange"/>
+    </xsl:element>
+</xsl:template>
+
+<xsl:template match="x:biblStruct//x:author">
+    <xsl:apply-templates select="x:surname"/><xsl:text>, </xsl:text>
+    <xsl:apply-templates select="x:forename"/><xsl:text>. </xsl:text>
+</xsl:template>
+
+<xsl:template match="x:biblStruct//x:imprint">
+    <xsl:apply-templates select="x:pubPlace"/><xsl:text>: </xsl:text>
+    <xsl:apply-templates select="x:publisher"/><xsl:text>, </xsl:text>
+    <xsl:apply-templates select="x:date"/><xsl:text>. </xsl:text>
+</xsl:template>
+
+<xsl:template match="x:biblStruct//x:citedRange">
+    <xsl:value-of select="@unit"/><xsl:text> </xsl:text>
+    <xsl:apply-templates/>
+    <xsl:text>.</xsl:text>
+</xsl:template>
 <xsl:template match="x:additional">
     <xsl:apply-templates/>
 </xsl:template>
