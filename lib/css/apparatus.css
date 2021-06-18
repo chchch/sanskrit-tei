@@ -6,15 +6,17 @@ section div.wide {
 }
 .text-block {
     top: 0;
+    padding-top: 1rem;
     width: 60%;
     font-size: 1.4rem;
     position: sticky;
 }
 .apparatus-block {
     top: 0;
-    font-size: 0.9em;
+    font-size: 1.1rem;
     width: 40%;
     padding-left: 2rem;
+    line-height: 1.3rem;
     position: sticky;
 }
 
@@ -23,24 +25,23 @@ section div.wide {
 }
 
 .lem-inline {
+    /*display: inline-block;*/
     text-decoration: underline wavy rgb(180,184,196);
+    text-decoration-thickness: from-font;
 }
 
-.lem-inline:hover, .lem:hover {
+.lem-inline:hover, .lem-inline:hover *, .lem:hover, .highlit, .highlit * {
     text-decoration: none;
-    background: rgba(255,255,0,0.5);
+    background: rgba(255,255,128,1);
 }
 
 .lem {
     font-weight: bold;
+    margin-right: 0.5em;
 }
 
 .lem::after {
     content: ']';
-}
-.highlit {
-    background: rgba(255,255,0,0.5);
-    text-decoration: none;
 }
 
 .rdg-text {
@@ -53,7 +54,21 @@ section div.wide {
     content: ';';
 }
 
-.rdg-wit, .lem-wit {
+.rdg:last-child::after {
+    content: '.';
+}
+
+.lem-wit {
+    word-break: break-all;
+    margin-right: 0.5em;
+}
+
+.msid {
     font-variant: small-caps;
     font-size: 0.8em;
+    margin-right: 0.2rem;
+}
+
+.msid a:after {
+    content: '';
 }

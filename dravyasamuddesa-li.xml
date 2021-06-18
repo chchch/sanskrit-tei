@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="lib/xslt/tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="LEd" type="reconstructed" corresp="#stemma0 #tree1" select="#n27">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="alt">Bhartṛhari's Dravyasamuddeśa, with the Prakīrṇaprakāśa commentary of Helārāja, working edition</title>
+            </titleStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <idno type="siglum">L<sup>Ed</sup></idno>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>This is a provisionary critical edition of the text, currently still under active revision, based on thirteen manuscript witnesses and four printed sources.</summary>
+
+                    </msContents>
+                </msDesc>
+                <listWit>
+                    <witness xml:id="K2"><idno type="siglum">K<sub>2</sub></idno></witness>
+                    <witness xml:id="V3"><idno type="siglum">V<sub>3</sub></idno></witness>
+                    <witness xml:id="V2"><idno type="siglum">V<sub>2</sub></idno></witness>
+                    <witness xml:id="CT"><idno type="siglum">C<sub>T</sub></idno></witness>
+                    <witness xml:id="T"><idno type="siglum"><ref target="paliyam329.xml">T</ref></idno></witness>
+                    <witness xml:id="H"><idno type="siglum">H</idno></witness>
+                    <witness xml:id="P"><idno type="siglum">P</idno></witness>
+                    <witness xml:id="M"><idno type="siglum">M</idno></witness>
+                    <witness xml:id="G2"><idno type="siglum">G<sub>2</sub></idno></witness>
+                    <witness xml:id="G1"><idno type="siglum">G<sub>1</sub></idno></witness>
+                    <witness xml:id="L"><idno type="siglum">L</idno></witness>
+                    <witness xml:id="O"><idno type="siglum"><ref target="Oxford_CSS_d_247.xml">O</ref></idno></witness>
+                    <witness xml:id="A"><idno type="siglum">A</idno></witness>
+                    <witness xml:id="V"><idno type="siglum">V</idno></witness>
+                    <witness xml:id="K"><idno type="siglum">K</idno></witness>
+                    <witness xml:id="D"><idno type="siglum">D</idno></witness>
+                    <witness xml:id="KEd"><idno type="siglum">K<sup>Ed</sup></idno></witness>
+                    <witness xml:id="IEd"><idno type="siglum">I<sup>Ed</sup></idno></witness>
+                    <witness xml:id="ŚEd"><idno type="siglum">Ś<sup>Ed</sup></idno></witness>
+                    <witness xml:id="REd"><idno type="siglum">R<sup>Ed</sup></idno></witness>
+                    <witness xml:id="REd-C"><idno type="siglum"><ref target="dravyasamuddesa-rau.xml">R<sup>Ed</sup>-C</ref></idno></witness>
+                    <witness xml:id="REd-m"><idno type="siglum"><ref target="dravyasamuddesa-rau.xml">R<sup>Ed</sup>-m</ref></idno></witness>
+                    <witness xml:id="REd-L"><idno type="siglum"><ref target="dravyasamuddesa-rau.xml">R<sup>Ed</sup>-L</ref></idno></witness>
+                    <witness xml:id="REd-M13"><idno type="siglum"><ref target="dravyasamuddesa-rau.xml">R<sup>Ed</sup>-M13</ref></idno></witness>
+                    <witness xml:id="REd-M12"><idno type="siglum"><ref target="dravyasamuddesa-rau.xml">R<sup>Ed</sup>-M12</ref></idno></witness>
+                    <witness xml:id="REd-s"><idno type="siglum"><ref target="dravyasamuddesa-rau.xml">R<sup>Ed</sup>-s</ref></idno></witness>
+                    <witness xml:id="REd-M4"><idno type="siglum"><ref target="dravyasamuddesa-rau.xml">R<sup>Ed</sup>-M4</ref></idno></witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="sa">
+        <body>
+            <p>
+jātir
+<app n="1"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #CT #V2 #V3 #K2">vā</lem><rdg wit="#T">[om.]</rdg></app>
+dravyaṃ vā padārthāv ity
+<app n="6"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #G1 #G2 #M #P #H #T #CT #V2 #V3 #K2">uktam</lem><rdg wit="#K #V">ukta </rdg></app> |
+tatra
+<app n="8"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #H #T #CT #V2 #V3 #K2">vājapyāyanadarśanena</lem><rdg wit="#M">vājapyāyanadarśane </rdg><rdg wit="#P">vājapyāyaṃ tadarthane </rdg></app>
+<app n="9"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #T #CT #V2 #V3 #K2">jātiṃ</lem><rdg wit="#P #H">jāti</rdg></app>
+<app n="10"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #G1 #G2 #M #H #T #CT #V2 #V3 #K2">viśeṣaṇabhūtāṃ</lem><rdg wit="#K #V #P">viśeṣaṇabhūtā </rdg></app>
+<app n="11"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #H #T #CT #V2 #V3 #K2">padārthaṃ</lem><rdg wit="#M #P">padārthatvena </rdg></app>
+vyavasthāpya
+<app n="13"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #V3 #K2">vyāḍidarśanena</lem><rdg wit="#G1 #G2">yāḍedarśanena </rdg><rdg wit="#T #CT">vyāḻidarśanena </rdg><rdg wit="#V2">yāḍidarśanena </rdg></app>
+<app n="14"><lem wit="#M #P #H #T #CT">viśeṣyabhūtaṃ</lem><rdg wit="#ŚEd #IEd #KEd #D #A #O #L #G1 #G2 #V2 #V3 #K2">viśeṣyarūpaṃ </rdg><rdg wit="#K #V">viśeṣyarūpa </rdg></app>
+<app n="15"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G2 #M #P #H #T #CT #V2 #V3 #K2">dravyam</lem><rdg wit="#G1">dram </rdg></app>
+<app n="16"><lem wit="#ŚEd #IEd #KEd #K #V #A #O #M #P #H #T #CT #K2">api</lem><rdg wit="#D #G1 #G2 #V2">iti pi </rdg><rdg wit="#L">iti </rdg><rdg wit="#V3">ty api </rdg></app>
+<app n="17"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #CT #V2 #K2">padārthaṃ</lem><rdg wit="#V3">padārmaṃ </rdg></app>
+<app n="18"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #T #CT #V2 #V3 #K2">vyavasthāpayituṃ</lem><rdg wit="#P #H">vyavasthāpayitu </rdg></app>
+<app n="19"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #G1 #G2 #M #P #H #T #CT #V2 #K2">yathādarśanaṃ</lem><rdg wit="#L">tathā darśanaṃ </rdg><rdg wit="#V3">yathāda¦śanaṃ </rdg></app>
+<app n="20"><lem wit="#ŚEd #IEd #KEd #D #K #V #O #L #M #P #H #T #CT #K2">tad eva</lem><rdg wit="#A">tad eca </rdg><rdg wit="#G1 #G2 #V2">tad evaṃ </rdg><rdg wit="#V3">deva </rdg></app>
+<app n="21"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #H #T #V2 #K2">paryāyāntarair</lem><rdg wit="#G1 #G2 #P">paryāyāṃtarai</rdg><rdg wit="#CT">paryāyā</rdg><rdg wit="#V3">caryāyāṃtarair </rdg></app>
+<app n="22"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #H #T #V2 #V3 #K2">uddiśati</lem><rdg wit="#G1">kaddiśati</rdg><rdg wit="#G2">kaddiśati ||</rdg><rdg wit="#P">saddiśati </rdg><rdg wit="#CT">[om.]</rdg></app> ―
+            </p>
+            <lg>
+                <l>
+<app n="0"><lem wit="#ŚEd #REd #REd-C #REd-m #REd-L #REd-M13 #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V2 #V3 #K2">ātmā</lem><rdg wit="#CT">[om.]</rdg></app>
+<app n="1"><lem wit="#ŚEd #REd #REd-C #REd-m #REd-L #REd-M13 #IEd #KEd #D #K #V #A #O #L #M #P #H #T #V2 #V3 #K2">vastu</lem><rdg wit="#G1 #G2">vasta </rdg><rdg wit="#CT">[om.]</rdg></app>
+<app n="2"><lem wit="#ŚEd #REd #REd-C #REd-m #REd-L #REd-M13 #IEd #KEd #D #K #V #A #O #M #P #H #T #K2">svabhāvaś</lem><rdg wit="#L #V2 #V3">svabhāvāś </rdg><rdg wit="#G1 #G2">svabhāvāpy</rdg><rdg wit="#CT">[om.]</rdg></app>
+<app n="4"><lem wit="#ŚEd #REd #REd-C #REd-m #REd-L #REd-M13 #IEd #KEd #D #K #V #A #O #L #M #P #H #T #V2 #V3 #K2">ca</lem><rdg wit="#G1 #G2">a</rdg><rdg wit="#CT">[om.]</rdg></app>
+<app n="5"><lem wit="#ŚEd #REd #REd-C #REd-m #REd-L #REd-M13 #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V2 #V3 #K2">śarīraṃ</lem><rdg wit="#CT">[om.]</rdg></app>
+tatvam
+<app n="7"><lem wit="#ŚEd #REd #REd-C #REd-m #REd-L #REd-M13 #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #CT #V2 #V3 #K2">ity</lem><rdg wit="#IEd">ipy </rdg></app>
+<app n="8"><lem wit="#ŚEd #REd #REd-C #REd-m #REd-L #REd-M13 #IEd #KEd #D #K #V #A #O #L #M #H #T #CT #V2 #V3 #K2">api</lem><rdg wit="#G1 #G2">āpi </rdg><rdg wit="#P">api sa </rdg></app> |
+                </l>
+                <l>
+dravyam iti
+<app n="11"><lem wit="#ŚEd #REd #REd-C #REd-m #REd-L #REd-M13 #IEd #KEd #D #A #O #L #G1 #G2 #M #P #H #T #CT #V2 #V3 #K2">asya</lem><rdg wit="#K #V">asyā</rdg></app>
+<app n="12"><lem wit="#ŚEd #REd #IEd #KEd #D #A #O #L #G2 #M #P #H #T #CT #V3 #K2">paryāyās</lem><rdg wit="#REd-C">paryāyā </rdg><rdg wit="#REd-m #REd-L #REd-M13">paryāyas </rdg><rdg wit="#K #V">pardyāyās </rdg><rdg wit="#G1">payāṃyāḥs </rdg><rdg wit="#V2">payāyāḥs </rdg></app>
+<app n="13"><lem wit="#ŚEd #REd #REd-C #REd-m #REd-L #REd-M13 #IEd #KEd #D #K #V #A #M #P #H #T #CT #V3 #K2">tac ca</lem><rdg wit="#O">tatva </rdg><rdg wit="#L">tatva</rdg><rdg wit="#G1 #G2 #V2">tatvam </rdg></app>
+<app n="14"><lem wit="#ŚEd #REd #REd-C #REd-m #REd-L #REd-M13 #IEd #KEd #D #K #V #A #O #M #P #H #T #CT #V3 #K2">nityam</lem><rdg wit="#L">miśram </rdg><rdg wit="#G1 #G2 #V2">itham </rdg></app>
+iti
+<app n="16"><lem wit="#ŚEd #REd #REd-C #REd-m #REd-L #REd-M13 #IEd #KEd #D #K #V #A #O #L #M #P #T #CT #V2 #V3 #K2">smṛtam</lem><rdg wit="#G1 #G2">smṛtaśa </rdg><rdg wit="#H">smṛtat || ꣸ || </rdg></app> || 1 ||
+                </l>
+            </lg>
+            <p>
+<app n="0"><lem wit="#ŚEd #IEd #KEd #D #K #V #O #L #G1 #G2 #M #P #H #T #CT #V2 #K2">ihārthakriyāyāṃ</lem><rdg wit="#A #V3">ihārthakriyāṃ </rdg></app>
+dravyam
+<app n="2"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #CT #V2 #K2">evopayujyata</lem><rdg wit="#V3">evīyujyata </rdg></app>
+iti tad eva pravartakam arthinām |
+<app n="7"><lem><choice><seg>ataḥ</seg><seg>ataś ca</seg></choice></lem><rdg wit="#ŚEd #IEd #KEd #D #K #V #A #L #G1 #G2 #T #CT #V2 #V3 #K2">ataḥ </rdg><rdg wit="#M #P #H">ataś ca </rdg><rdg wit="#O">tataḥ </rdg></app>
+śabdena
+<app n="9"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #CT #V2 #V3 #K2">tad evocyate</lem><rdg wit="#G1 #G2">tad evovyate </rdg></app> |
+<app n="10"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #T #CT #V2 #V3 #K2">anabhidhīyamānā</lem><rdg wit="#G1">anadyidhīyamānā </rdg><rdg wit="#G2">anadhidhīyamānā </rdg><rdg wit="#H">'nabhivīyamānā </rdg></app>
+tu jātir
+<app n="13"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #CT #V2 #V3 #K2">avacchedikā</lem><rdg wit="#T">avacśedikā </rdg></app>
+<app n="14"><lem wit="#IEd #KEd #D #K #V #A #O #L #G1 #G2 #H #T #V2 #V3 #K2">guḍaśabde</lem><rdg wit="#ŚEd">[om.]</rdg><rdg wit="#CT">guḍaśabdena </rdg><rdg wit="#M">guḍaśabder </rdg><rdg wit="#P">guṃḍaśabder </rdg></app>
+<app n="16"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #G1 #G2 #M #P #H #T #CT #V2 #V3 #K2">mādhuryādaya</lem><rdg wit="#K #V">mādhrarmādaya </rdg></app>
+<app n="17"><lem wit="#ŚEd #IEd #KEd #D #K #V #O #L #G1 #G2 #M #P #H #T #CT #V2 #K2">iveti</lem><rdg wit="#A #V3">raveti </rdg></app>
+<app n="18"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #H #T #V2 #V3 #K2">dravyavādināṃ</lem><rdg wit="#P #CT">dravyavādinā </rdg></app>
+<app n="19"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #V2 #V3 #K2">darśanam</lem><rdg wit="#G1 #G2">da </rdg><rdg wit="#CT">[om.]</rdg></app> |
+<app n="20"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #T #V2 #V3 #K2">dravyaṃ</lem><rdg wit="#H">dravya </rdg><rdg wit="#CT">[om.]</rdg></app>
+<app n="21"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #V2 #V3 #K2">ca</lem><rdg wit="#G1 #G2">va </rdg><rdg wit="#CT">[om.]</rdg></app>
+<app n="22"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #G1 #G2 #M #P #T #V2 #V3 #K2">dvividhaṃ</lem><rdg wit="#K #V">dvividha </rdg><rdg wit="#H">dvivivaṃ </rdg><rdg wit="#CT">[om.]</rdg></app> —
+<app n="23"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V2 #V3 #K2">pāramārthikaṃ</lem><rdg wit="#CT">[om.]</rdg></app>
+<app n="24"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #T #V2 #V3 #K2">sāṃvyavahārikaṃ</lem><rdg wit="#H">sāvyavahārikaṃ </rdg><rdg wit="#CT">vahārikaṃ </rdg></app>
+<app n="25"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #CT #V2 #V3 #K2">ca</lem><rdg wit="#G1 #G2">va </rdg></app> |
+<app n="26"><lem wit="#ŚEd #IEd #KEd #D #K #V #O #L #G1 #G2 #M #P #H #T #CT #V2 #K2">tatra</lem><rdg wit="#A">ta </rdg><rdg wit="#V3">tu </rdg></app>
+<app n="27"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #T #CT #V2 #V3 #K2">dvitīyaṃ</lem><rdg wit="#H">dvitīyaṃ dravyaṃ </rdg></app>
+<app n="28"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #H #T #V3 #K2">bhedyabhedakaprastāvena</lem><rdg wit="#K">bhedyabhedakaprahyāvena </rdg><rdg wit="#V">bhedyabhedakamahyāvema </rdg><rdg wit="#G1 #G2">bhadyabhedakaprastavema </rdg><rdg wit="#M">bhedyaṃ | bhedakaprastāvena </rdg><rdg wit="#P">bhedyaṃ bhedakaprastāvena </rdg><rdg wit="#CT">bhedyabhedaprastāvena </rdg><rdg wit="#V2">bhedyabhedakaprastāvema </rdg></app>
+<app n="29"><lem wit="#ŚEd #IEd #KEd #D #K #V #O #L #G1 #G2 #M #P #H #T #CT #V2 #K2">guṇasamuddeśe</lem><rdg wit="#A">guṇasamudeśe </rdg><rdg wit="#V3">guṇaśamudeśe </rdg></app>
+<app n="30"><lem wit="#KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #CT #V2 #V3 #K2">vakṣyati</lem><rdg wit="#ŚEd #IEd">vakṣyate ‘</rdg></app> ―
+<app n="31"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #H #T #CT #V2 #V3 #K2">vastūpalakṣaṇaṃ</lem><rdg wit="#G1 #G2">vasttūpalakṣaṇaṃ </rdg><rdg wit="#P">vasturūpalakṣaṇam </rdg></app>
+<app n="32"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #H #T #CT #V2 #V3 #K2">yatretyādinā</lem><rdg wit="#G1">yatretyādina || </rdg><rdg wit="#G2">yatretyādina </rdg><rdg wit="#M">ityādinā | </rdg><rdg wit="#P">ityādinā </rdg></app> |
+anena
+<app n="34"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #M #P #H #T #CT #V2 #V3 #K2">ca</lem><rdg wit="#L">[om.]</rdg><rdg wit="#G1 #G2">va </rdg></app>
+dravyeṇa
+<app n="36"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #V2 #V3 #K2">vyāḍidarśane</lem><rdg wit="#G1 #G2">vyaḍidarśane </rdg><rdg wit="#T #CT">vyāḻidarśane </rdg></app>
+sarveśabdā
+<app n="39"><lem wit="#ŚEd #IEd #KEd #D #O #L #M #P #H #T #CT #V3 #K2">dravyābhidhāyino</lem><rdg wit="#K">dvavyābhidhāyino </rdg><rdg wit="#V">dvavyābhidhāyi¦no </rdg><rdg wit="#A">dravyābhidhāyinoṃ </rdg><rdg wit="#G1 #G2 #V2">dravyābhidhāyine </rdg></app>
+<app n="40"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #CT #V3 #K2">bhavanti</lem><rdg wit="#G1 #G2 #V2">bhavati | </rdg></app> |
+            </p>
+            <p>
+iha tu
+<app n="2"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V2 #V3 #K2">pāramārthikaṃ</lem><rdg wit="#CT">pāramārthakaṃ </rdg></app>
+<app n="3"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #H #V2 #V3 #K2">dravyaṃ</lem><rdg wit="#P">dravya </rdg><rdg wit="#T #CT">[om.]</rdg></app>
+nirūpyate | tathā hy
+<app n="7"><lem wit="#D #K #V #A #O #L #G1 #G2 #M #P #H #T #CT #V2 #K2">ātmādvaitavādibhir</lem><rdg wit="#ŚEd #IEd">ātmā advaitavādibhir </rdg><rdg wit="#KEd">ātmā | advaitavādibhir </rdg><rdg wit="#V3">ātmādvaitavādībhi </rdg></app>
+<app n="8"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #CT #V2 #K2">ātmaśabdena</lem><rdg wit="#V3">śalyaśabdena </rdg></app>
+<app n="9"><lem wit="#ŚEd #IEd #KEd #D #M #K2 #A #P #T #V3">tad dravyam</lem><rdg wit="#K #V #O #L">tad dravya</rdg><rdg wit="#G1">tadra-vya</rdg><rdg wit="#G2 #V2">tadravya</rdg><rdg wit="#H">dravyam </rdg><rdg wit="#CT">[om.]</rdg></app>
+<app n="10"><lem wit="#ŚEd #IEd #KEd #D #A #M #P #H #T #V3 #K2">uktam</lem><rdg wit="#K #V #O #L #G1 #G2 #V2">yuktam </rdg><rdg wit="#CT">[om.]</rdg></app> |
+<app n="11"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #H #T #V2 #V3 #K2">ātmaiva</lem><rdg wit="#P">jātmaiva </rdg><rdg wit="#CT">[om.]</rdg></app>
+<app n="12"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V3 #K2">hy</lem><rdg wit="#CT">[om.]</rdg><rdg wit="#V2">ty </rdg></app>
+<app n="13"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V2 #V3 #K2">upādhibhiṃnaṃ</lem><rdg wit="#CT">[om.]</rdg></app>
+<app n="14"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #V2 #V3 #K2">pratibhāsamānaṃ</lem><rdg wit="#G1 #G2">pragtibhāsamānaṃ </rdg><rdg wit="#CT">naṃ </rdg></app>
+<app n="15"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #G1 #G2 #M #P #H #T #CT #V2 #V3 #K2">dravyaṃ</lem><rdg wit="#K #V">dravya </rdg></app>
+<app n="16"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #H #T #CT #V2 #V3 #K2">padānām</lem><rdg wit="#M #P">pādānām </rdg></app>
+<app n="17"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #CT #V3 #K2">artha</lem><rdg wit="#V2">athā </rdg></app>
+iti 
+<app n="19"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #CT #V3 #K2">teṣāṃ</lem><rdg wit="#G1 #G2 #V2">neṣāṃ </rdg></app>
+darśanam ihaiva
+<app n="22"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #T #CT #V2 #V3 #K2">vakṣyamāṇam</lem><rdg wit="#G1 #G2">vakṣamāṇaṃ </rdg><rdg wit="#H">vakṣyamāṇa </rdg></app> |
+            </p>
+            <p>
+<app n="0"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #T #CT #V2 #V3 #K2">vastu</lem><rdg wit="#G1 #G2">vasta </rdg><rdg wit="#H">[om.]</rdg></app>
+<app n="1"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #G1 #G2 #T #CT #V2 #V3 #K2">svalakṣaṇam arthakriyākāri</lem><rdg wit="#L">svarūpam arthakriyākāri </rdg><rdg wit="#M #P">svalakṣaṇakriyākāri </rdg><rdg wit="#H">svalakṣamāṇam arthakriyākāri </rdg></app>
+dravyam iti
+<app n="4"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #G1 #G2 #H #T #CT #V2 #V3 #K2">śākyair</lem><rdg wit="#K">kyair </rdg><rdg wit="#V">kair </rdg><rdg wit="#M">śraukair </rdg><rdg wit="#P">ślokair </rdg></app>
+<app n="5"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #CT #V3 #K2">uktam</lem><rdg wit="#V2">ūktaṃ </rdg></app> |
+            </p>
+            <p>
+<app n="0"><lem wit="#ŚEd #IEd #KEd #M #P #H #T #CT">svabhāva</lem><rdg wit="#D #K #V #A #O #L #G1 #G2 #V2 #V3 #K2">svabhāvam </rdg></app>
+iti |
+<app n="2"><lem wit="#IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #T #CT #V2 #V3 #K2">sattādvaitavādibhiḥ</lem><rdg wit="#ŚEd">sattādvatavādibhiḥ </rdg><rdg wit="#P">satādvaitavādibhiḥ </rdg><rdg wit="#H">sa cādvaitavādibhiḥ </rdg></app>
+<app n="3"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #V2 #V3 #K2">svabhāva</lem><rdg wit="#T #CT">svobhāva </rdg></app>
+ātmabhūtā
+<app n="5"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #M #T #CT #V3 #K2">satteti</lem><rdg wit="#K">sattaṃti </rdg><rdg wit="#V">sataṃti </rdg><rdg wit="#G1 #G2">saṃteni </rdg><rdg wit="#P">sateti </rdg><rdg wit="#H">satte vi</rdg><rdg wit="#V2">saṃteti </rdg></app>
+<app n="6"><lem wit="#ŚEd #IEd #D #A #O #L #G1 #G2 #M #P #H #T #CT #V2 #V3 #K2">kṛtvā</lem><rdg wit="#KEd">kṛtā | </rdg><rdg wit="#K">katvā | </rdg><rdg wit="#V">katvā </rdg></app> |
+tathā hi
+<app n="9"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #T #CT #V2 #V3 #K2">kramarūpopasaṃhāre</lem><rdg wit="#G1 #G2">kramarūpopaṃsahāre </rdg><rdg wit="#H">kramastapopasaṃhāre </rdg></app>
+<app n="10"><lem wit="#ŚEd #IEd #KEd #D #K #A #O #L #G1 #G2 #M #P #H #T #CT #V2">sattaiva</lem><rdg wit="#V">sasaiva </rdg><rdg wit="#V3">tattaiva </rdg><rdg wit="#K2">sattaica </rdg></app>
+<app n="11"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #V3 #K2">sattvam iti</lem><rdg wit="#G1 #G2 #V2">satvabhi </rdg><rdg wit="#T #CT">svatvam iti </rdg></app>
+<app n="12"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #V3 #K2">svasambandhibhir</lem><rdg wit="#G1 #G2 #V2">svaṃ saṃbaṃdhibhir </rdg><rdg wit="#CT">[om.]</rdg></app>
+<app n="13"><lem wit="#IEd #KEd #D #K #V #A #O #L #G1 #G2 #T #V2 #K2">upādhibhir upahitabhedā</lem><rdg wit="#ŚEd">upahitabhedā </rdg><rdg wit="#M">upādhir ahitā sattābhedā </rdg><rdg wit="#P">upādhir ahitā bhedā </rdg><rdg wit="#H">upāhitabhedāt </rdg><rdg wit="#CT">[om.]</rdg><rdg wit="#V3">upādibhir upahitabhedā </rdg></app>
+<app n="15"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #G1 #G2 #T #V2 #V3 #K2">saiva</lem><rdg wit="#L #M">sattaiva </rdg><rdg wit="#P">sataiva </rdg><rdg wit="#H">sattaiva </rdg><rdg wit="#CT">[om.]</rdg></app>
+<app n="16"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #G1 #G2 #M #P #H #T #CT #V2 #V3 #K2">dravyam</lem><rdg wit="#K #V">dravya </rdg></app> |
+            </p>
+            <p>
+prakṛter
+<app n="1"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #G1 #G2 #M #P #H #T #CT #V2 #V3 #K2">ekadeśaś</lem><rdg wit="#K #V">ekadeśa </rdg></app>
+cetanaḥ
+<app n="3"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #CT #V2 #V3 #K2">puruṣaḥ</lem><rdg wit="#G1">punaṣas </rdg><rdg wit="#G2">punuṣas </rdg></app>,
+<app n="4"><lem wit="#KEd #D #K #V #A #O #G1 #G2 #M #P #H #T #V2 #V3 #K2">tadvāreṇa</lem><rdg wit="#ŚEd">tad_dvāreṇa </rdg><rdg wit="#IEd #L #CT">taddvāreṇa </rdg></app>
+<app n="5"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #M #P #H #T #CT #V3 #K2">śarīraśarīriṇor</lem><rdg wit="#K #V">śarīraśarīrīṇor </rdg><rdg wit="#G1 #G2">śarīraśarīriṇo </rdg><rdg wit="#V2">śarīraśarīrīṇo </rdg></app>
+<app n="6"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #M #P #H #T #V3 #K2">avyatirekāc charīraṃ</lem><rdg wit="#O">avyatirekaḥ śarīraṃ </rdg><rdg wit="#L">avyatirekā śarīraṃ </rdg><rdg wit="#G1 #G2 #V2">vyatirekā śarīraṃ </rdg><rdg wit="#CT">avyatirekāḥ śarīraṃ </rdg></app>
+<app n="7"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #H #T #CT #V2 #K2">dravyaṃ</lem><rdg wit="#G1 #G2">dradhyaṃ </rdg><rdg wit="#P">dravya</rdg><rdg wit="#V3">[om.]</rdg></app>
+<app n="8"><lem wit="#ŚEd #IEd #KEd #D #K #V #O #L #G1 #G2 #M #P #H #T #CT #V2 #K2">pradhānam</lem><rdg wit="#A">padhānam </rdg><rdg wit="#V3">[om.]</rdg></app>
+<app n="9"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #CT #K2">eveti</lem><rdg wit="#V2">evaiṃti </rdg><rdg wit="#V3">[om.]</rdg></app>
+<app n="10"><lem wit="#ŚEd #IEd #KEd #D #K #V #O #L #G1 #G2 #M #P #H #T #CT #V2 #K2">prākṛtikaiḥ</lem><rdg wit="#A">prākṛtikai </rdg><rdg wit="#V3">[om.]</rdg></app>
+<app n="11"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V2 #K2">śarīram</lem><rdg wit="#CT">śarīra</rdg><rdg wit="#V3">[om.]</rdg></app>
+<app n="12"><lem><choice><seg>evaika</seg><seg>eva</seg></choice></lem><rdg wit="#ŚEd #IEd #KEd #D #K #V #A #L #T #K2">evaika </rdg><rdg wit="#CT">devaika </rdg><rdg wit="#G1 #G2 #V2">evai</rdg><rdg wit="#O #M #P">eva </rdg><rdg wit="#H">evā</rdg><rdg wit="#V3">[om.]</rdg></app>
+<app n="13"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #T #CT #V2 #K2">ātmā</lem><rdg wit="#H">tmā </rdg><rdg wit="#V3">[om.]</rdg></app>
+<app n="14"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #CT #V2 #K2">yeṣāṃ</lem><rdg wit="#V3">[om.]</rdg></app>
+<app n="15"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #CT #V2 #K2">taiḥ</lem><rdg wit="#G1 #G2">tai </rdg><rdg wit="#V3">[om.]</rdg></app>
+<app n="16"><lem wit="#IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #H #K2">śarīrātmabhir</lem><rdg wit="#ŚEd">śarīrātmavādibhir </rdg><rdg wit="#P">śarītmabhir </rdg><rdg wit="#T">śarīrātmibhir </rdg><rdg wit="#CT">śarīrakibhir </rdg><rdg wit="#V2">śarīrātmabhi</rdg><rdg wit="#V3">[om.]</rdg></app>
+<app n="17"><lem wit="#ŚEd #IEd #KEd #D #K #V #O #L #H #T #CT #K2">ucyate</lem><rdg wit="#A">ucyaṃte </rdg><rdg wit="#G1 #G2">uvyate </rdg><rdg wit="#M">ucye | te </rdg><rdg wit="#P">ucyete </rdg><rdg wit="#V2">n ucyate </rdg><rdg wit="#V3">[om.]</rdg></app> |
+            </p>
+            <p>
+<app n="0"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #CT #V3 #K2">tattvam</lem><rdg wit="#V2">bhatvam </rdg></app>
+<app n="1"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #CT #V2 #K2">iti</lem><rdg wit="#V3">[om.]</rdg></app>
+<app n="2"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #G1 #G2 #H #CT #V2 #K2">caturbhūtatattvavādibhiś</lem><rdg wit="#L">caturbhūtatatvādibhiś </rdg><rdg wit="#M">catubhūtatatvavādibhiś </rdg><rdg wit="#P">catubhūtatatvavādibhiḥ </rdg><rdg wit="#T">caturbhūtavādibhiś </rdg></app>
+<app n="3"><lem wit="#ŚEd #IEd #KEd #D #K #V #O #L #M #H #T #K2">cārvākair</lem><rdg wit="#A #V3">cākaikair </rdg><rdg wit="#G1 #G2 #V2">cārvākai </rdg><rdg wit="#P">ārvākais </rdg><rdg wit="#CT">śvārvākair </rdg></app>
+<app n="4"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #H #T #CT #V2 #V3 #K2">dravyaṃ</lem><rdg wit="#M #P">tatvam </rdg></app>
+<app n="5"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #CT #V2 #V3 #K2">ucyate</lem><rdg wit="#G1 #G2">uvyate </rdg></app> |
+<app n="6"><lem><choice><seg>pṛthivyaptejovāyur</seg><seg>pṛthivy āpas tejo vāyur</seg></choice></lem><rdg wit="#ŚEd #IEd #KEd #D #K #V #L #M #K2">pṛthivyaptejovāyur </rdg><rdg wit="#A #V3">pṛthivyātejovāyur </rdg><rdg wit="#O">pṛthivyaptejovāyava </rdg><rdg wit="#G1 #G2">pṛthivyap_taijovāyur </rdg><rdg wit="#P">pṛthivīvyaptejovāyur </rdg><rdg wit="#H #T">pṛthivy āpas tejo vāyur </rdg><rdg wit="#CT">[om.]</rdg><rdg wit="#V2">pṛthivyapūtejovāyur </rdg></app>
+<app n="7"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #H #T #V2 #V3 #K2">iti</lem><rdg wit="#P">īti </rdg><rdg wit="#CT">[om.]</rdg></app>
+<app n="8"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #G1 #G2 #M #H #T #V2 #V3 #K2">tattvāni</lem><rdg wit="#K #V">tatāni </rdg><rdg wit="#P">tatvābhiḥ </rdg><rdg wit="#CT">[om.]</rdg></app>
+<app n="9"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #G1 #G2 #M #P #H #T #V3 #K2">tatsamudāye</lem><rdg wit="#K #V">tatsumudāye </rdg><rdg wit="#CT">[om.]</rdg><rdg wit="#V2">tatsaśudāye </rdg></app>
+<app n="10"><lem wit="#ŚEd #IEd #KEd #D #O #L #M #H #T #V3 #K2">śarīrendriyaviṣayasaṃjñā</lem><rdg wit="#K #V">śaraureṃdriyaviṣayasaṃjñā </rdg><rdg wit="#A #P">śarīredriyaviṣayasaṃjñā </rdg><rdg wit="#G1 #G2">śarīreṃdriyaviṣayaṃ sajñā </rdg><rdg wit="#CT">śakti(ri)ndriyaviṣayasaṃjñā </rdg><rdg wit="#V2">śaṃrīreṃdriyaviṣayasaṃjñā </rdg></app>
+iti
+<app n="12"><lem wit="#ŚEd #IEd #KEd #D #A #L #M #P #H #K2">vacanāt tad evam etaiḥ</lem><rdg wit="#K #V">vacantat_ tad evam etaiḥ </rdg><rdg wit="#O">vacanāt_ taiḥ </rdg><rdg wit="#G1 #G2">vavanāt_ ptad evam etaiḥ </rdg><rdg wit="#T">vacanāt_ tad etaiḥ </rdg><rdg wit="#CT">vacanāt_ tadaikaiḥ </rdg><rdg wit="#V2">vacanāt_ rād evam etaiḥ </rdg><rdg wit="#V3">cacanāt || tad evam etaiḥ || </rdg></app>
+<app n="13"><lem wit="#ŚEd #IEd #M #P #H">paramārthata</lem><rdg wit="#KEd #D #K #V #A #L #G1 #G2 #V2 #K2">paramārtha </rdg><rdg wit="#O">paramārttha </rdg><rdg wit="#T">pāramārtthika </rdg><rdg wit="#CT">pāramārthika </rdg><rdg wit="#V3">paranpārtha </rdg></app>
+<app n="14"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #CT #V2 #K2">ekam eva</lem><rdg wit="#V3">ekany eva </rdg></app>
+<app n="15"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #CT #V3 #K2">vastūcyate</lem><rdg wit="#G1 #G2">vastū </rdg><rdg wit="#V2">vamrūvyate </rdg></app> |
+            </p>
+            <p>
+<app n="0"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #CT #V2 #V3 #K2">dravyam</lem><rdg wit="#G1 #G2">vyam </rdg></app>
+<app n="1"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #T #CT #V2 #V3 #K2">ity</lem><rdg wit="#H">ity i</rdg></app>
+<app n="2"><lem wit="#KEd #D #K #V #A #O #L #G1 #G2 #M #T #CT #V2 #V3 #K2">asyeti</lem><rdg wit="#ŚEd">asya iti | </rdg><rdg wit="#IEd">asya’ iti | </rdg><rdg wit="#P">asyaiti </rdg><rdg wit="#H">syeti </rdg></app> |
+<app n="3"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #V2 #V3 #K2">dravyaṃ</lem><rdg wit="#G1 #G2">dra</rdg><rdg wit="#CT">dravyā</rdg></app>
+<app n="4"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #V2 #V3 #K2">nāma</lem><rdg wit="#G1 #G2">[om.]</rdg><rdg wit="#CT">nām a</rdg></app>
+<app n="5"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #T #V2 #V3 #K2">yaḥ</lem><rdg wit="#G1 #G2">[om.]</rdg><rdg wit="#H">ya </rdg><rdg wit="#CT">yaṃ </rdg></app>
+<app n="6"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #CT #V2 #V3 #K2">padārthas</lem><rdg wit="#G1 #G2">[om.]</rdg></app>
+<app n="7"><lem wit="#ŚEd #IEd #KEd #D #K #A #O #L #M #P #H #T #CT #V2 #V3 #K2">tasyaita</lem><rdg wit="#V">tasyaiva </rdg><rdg wit="#G1 #G2">[om.]</rdg></app>
+<app n="8"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #CT #V3 #K2">eva</lem><rdg wit="#G1 #G2">[om.]</rdg><rdg wit="#V2">pava </rdg></app>
+<app n="9"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #M #P #H #T #CT #V2 #K2">paryāyāḥ</lem><rdg wit="#L">paryāyā </rdg><rdg wit="#G1 #G2">[om.]</rdg><rdg wit="#V3">paryāyaḥ || </rdg></app> |
+<app n="10"><lem wit="#ŚEd #IEd #KEd #D #K #V #O #L #M #P #H #T #CT #K2">eteṣām</lem><rdg wit="#A">eteṣās </rdg><rdg wit="#G1 #G2">[om.]</rdg><rdg wit="#V2">yateṣām </rdg><rdg wit="#V3">etteṣās </rdg></app>
+<app n="11"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #H #T #CT #V2 #V3 #K2">eva</lem><rdg wit="#G1 #G2">[om.]</rdg><rdg wit="#M #P">eṣi </rdg></app>
+<app n="12"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #CT #V2 #V3 #K2">pāramārthikarūpābhidhāyitvān nānye</lem><rdg wit="#G1 #G2">bhidhāyi</rdg><rdg wit="#H">paramārthikarūpatvābhidhāyitvān nānye </rdg><rdg wit="#T">pāramārtthikarūpāyitatvāt_ nānye </rdg></app>
+<app n="13"><lem wit="#ŚEd #IEd #KEd #A #O #L #M #T #CT #V3 #K2">ghaṭādiśabdāḥ</lem><rdg wit="#D">ghaṭadiśabdāḥ | </rdg><rdg wit="#K #V">ghaṭadiśabdāḥ </rdg><rdg wit="#G1 #G2">[om.]</rdg><rdg wit="#P">ghaṭādiśabdaḥ </rdg><rdg wit="#H">ghaṭādiśabdaḥ | </rdg><rdg wit="#V2">ghaṭādeśabdāḥ | </rdg></app> |
+<app n="14"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #CT #V2 #V3 #K2">saty</lem><rdg wit="#G1 #G2">[om.]</rdg></app>
+<app n="15"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #CT #V2 #V3 #K2">api</lem><rdg wit="#G1 #G2">[om.]</rdg></app>
+<app n="16"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #CT #V2 #V3 #K2">tadabhidhāyitve</lem><rdg wit="#G1 #G2">tve </rdg></app>
+<app n="17"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #L #M #P #H #V2 #V3 #K2">vakṣyamāṇanayenātmādiśabdānām</lem><rdg wit="#O">vakṣyamāṇanaye ātmādiśabdānām </rdg><rdg wit="#G1 #G2">vakṣyamāṇanaye vātmādiśapdānām </rdg><rdg wit="#T">vakṣyamāṇanayena ātmādiśabdānām </rdg><rdg wit="#CT">vakṣyamāṇana </rdg></app>
+<app n="18"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V2 #V3 #K2">eva</lem><rdg wit="#CT">[om.]</rdg></app>
+<app n="19"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V2 #V3 #K2">sarvatra</lem><rdg wit="#CT">[om.]</rdg></app>
+<app n="20"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V3 #K2">ghaṭādau</lem><rdg wit="#CT">[om.]</rdg><rdg wit="#V2">ghayadāv </rdg></app>
+<app n="21"><lem><choice><seg>avyāhatasya </seg><seg>avyāhata</seg></choice></lem><rdg wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #T #V2 #V3 #K2">avyāhata</rdg><rdg wit="#M #P">apy āhatasya </rdg><rdg wit="#H">avyāhatasya </rdg><rdg wit="#CT">[om.]</rdg></app><app n="22"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #T #V3 #K2">prasaratvam</lem><rdg wit="#O">prasyaṃdatvaṃ </rdg><rdg wit="#L #G1 #G2 #V2">prasyatvaṃ </rdg><rdg wit="#M">pratyakṣatvaṃ | </rdg><rdg wit="#P">pratyakṣyatvaṃ </rdg><rdg wit="#H">prasaratyaṃ | </rdg><rdg wit="#CT">prasaratām· </rdg></app> |
+tathā
+<app n="24"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #CT #V2 #V3 #K2">ca</lem><rdg wit="#G1 #G2">va </rdg></app>
+<app n="25"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #CT #V3 #K2">bhāṣyam</lem><rdg wit="#V2">bhāṣphaṃ </rdg></app> ―
+<app n="26"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #T #CT #V3 #K2">eko</lem><rdg wit="#G1 #G2 #H">ko </rdg><rdg wit="#V2">pako </rdg></app>
+'yam ātmā udakaṃ
+<app n="30"><lem wit="#KEd #D #K #V #A #O #L #M #P #H #T #CT #K2">nāmeti</lem><rdg wit="#ŚEd #IEd">nāma’ iti | </rdg><rdg wit="#G1 #G2">nātmeti | atrātmaśabda udake nāmeti </rdg><rdg wit="#V2">nātmeti | atrātmaśabda nudake nāmeti </rdg><rdg wit="#V3">nam iti || </rdg></app> |
+atrātmaśabda udake
+<app n="33"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #G1 #G2 #M #P #T #CT #V2 #V3 #K2">prayujyamāno</lem><rdg wit="#K #V">praprajyamāno </rdg><rdg wit="#H">prayuchamāno </rdg></app>
+<app n="34"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #M #P #H #T #CT #V3 #K2">dravyavacana</lem><rdg wit="#O #L">dravyavacanaḥ </rdg><rdg wit="#G1 #G2">dravyavadanaḥ || </rdg><rdg wit="#V2">dravyavavanaḥ </rdg></app>
+<app n="35"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #M #P #H #T #CT #V3 #K2">ākṛtidvāreṇa</lem><rdg wit="#O #L #G1 #G2">sākṛtidvāreṇa </rdg><rdg wit="#V2">sākṛtiddāreṇa </rdg></app>
+<app n="36"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #L #M #P #H #T #CT #V2 #V3 #K2">cānye</lem><rdg wit="#O #G1 #G2">vānye </rdg></app>
+<app n="37"><lem wit="#ŚEd #IEd #KEd #H #CT #D #K #V #A #O #L #M #P #V2 #K2 #G1 #G2 #V3">śabdā</lem><rdg wit="#T">śabde </rdg></app>
+dravye
+<app n="39"><lem wit="#ŚEd #IEd #D #O #L #M #T #CT #K2">vartante</lem><rdg wit="#KEd">varttate | </rdg><rdg wit="#K">vaṃrtate </rdg><rdg wit="#V #A #V3">vartate </rdg><rdg wit="#G1 #G2 #P #H #V2">varttate </rdg></app> |
+ime
+<app n="41"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #T #CT #V2 #V3 #K2"/><rdg wit="#H">na </rdg></app>
+tu
+<app n="43"><lem wit="#ŚEd #IEd #KEd #D #K #V #O #L #G1 #G2 #M #P #H #CT #V2 #K2">tatparityāgena</lem><rdg wit="#A #V3">tparityāgena </rdg><rdg wit="#T">tat_parityāge </rdg></app>
+mukhyayā
+<app n="45"><lem wit="#ŚEd #IEd #KEd #D #K #A #O #L #G1 #G2 #H #T #CT #V2 #V3 #K2">vṛttyeti</lem><rdg wit="#V">vṛtteti </rdg><rdg wit="#M">dravyavṛttyeti </rdg><rdg wit="#P">dravyavṛtyeti </rdg></app>
+viśeṣaḥ siddhe
+<app n="48"><lem wit="#KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #CT #V2 #V3 #K2">śabdārthasambandha</lem><rdg wit="#ŚEd #IEd">śabdārthasaṃbandhe’ </rdg></app>
+ity atra dravyaṃ
+<app n="52"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V2 #V3 #K2">nityam</lem><rdg wit="#CT">ni-tya </rdg></app>
+<app n="53"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #G1 #G2 #M #P #H #T #V2 #V3 #K2">ākṛtir</lem><rdg wit="#K #V">ākatir </rdg><rdg wit="#CT">[om.]</rdg></app>
+<app n="54"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #T #V2 #V3 #K2">anyā</lem><rdg wit="#H">avyā </rdg><rdg wit="#CT">[om.]</rdg></app>
+<app n="55"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #V2 #V3 #K2">cānyā</lem><rdg wit="#G1 #G2">vānyā</rdg><rdg wit="#CT">[om.]</rdg></app>
+<app n="56"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #V2 #V3 #K2">ca</lem><rdg wit="#G1 #G2">va</rdg><rdg wit="#CT">[om.]</rdg></app>
+<app n="57"><lem wit="#KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #V2 #V3 #K2">bhavatīti</lem><rdg wit="#ŚEd #IEd">bhavati’ iti </rdg><rdg wit="#T">bhavantīti </rdg><rdg wit="#CT">[om.]</rdg></app>
+<app n="58"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V2 #V3 #K2">vadatā</lem><rdg wit="#CT">[om.]</rdg></app>
+<app n="59"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V2 #V3 #K2">bhāṣyakāreṇa</lem><rdg wit="#CT">[om.]</rdg></app>
+<app n="60"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #CT #V2 #V3 #K2">nityaṃ</lem><rdg wit="#G1 #G2">niṃtyaṃ </rdg></app>
+dravyaṃ
+<app n="62"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #CT #V3 #K2">smṛtam</lem><rdg wit="#G1 #G2 #V2">smṛti</rdg></app> |
+saṃgrahoktasya
+<app n="64"><lem><choice><seg>tasyā</seg><seg>tatrā</seg></choice>rthasyānuvādāt smṛtam</lem><rdg wit="#ŚEd">tasyārthasyānuvādāt_ smṛtam_ </rdg><rdg wit="#IEd #KEd #D #K #V #A #L #V3 #K2">tasyārthasyānuvādāt smṛtam </rdg><rdg wit="#O">tasyārtthasyānuvādāt smṛtam </rdg><rdg wit="#G1 #G2">tasyārthasyāvuvādā smṛtam </rdg><rdg wit="#M">tasyārthasyānuvādāt_ smṛtam </rdg><rdg wit="#P">tasyārthasyānuvādāta syatam </rdg><rdg wit="#H">tatrārthasyānupādānāṃ smṛtam </rdg><rdg wit="#T">tatrārtthasyānuvādāt sṛtam </rdg><rdg wit="#CT">tantrārthasyānuvādāt_ smṛtam </rdg><rdg wit="#V2">tasyārthasyānuvādā smṛtam </rdg></app>
+iti
+<app n="66"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #CT #V3 #K2">āha</lem><rdg wit="#G1 #G2 #V2">āhā </rdg></app> |
+            </p>
+            <p>
+yady
+<app n="1"><lem wit="#M #P #H #T #CT">api ca</lem><rdg wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #V2 #V3 #K2">api </rdg></app>
+<app n="2"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #H #T #CT #V3 #K2">śākyādidarśane</lem><rdg wit="#G1 #G2 #V2">śākyāhidarśane </rdg><rdg wit="#M #P">śaktyādidarśane </rdg></app>
+<app n="3"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #CT #V3 #K2">nityaṃ</lem><rdg wit="#V2">nilaṃ </rdg></app>
+<app n="4"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #M #P #H #T #CT #K2">na</lem><rdg wit="#O #L #G1 #G2 #V2 #V3">[om.]</rdg></app>
+<app n="5"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #CT #V3 #K2">bhavati</lem><rdg wit="#G1 #G2 #V2">bhayati </rdg></app>
+dravyaṃ
+<app n="7"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V2 #V3 #K2">tathāpi</lem><rdg wit="#CT">[om.]</rdg></app>
+<app n="8"><lem>tanmatasyānabhyupagamād <choice><seg>evādoṣaḥ</seg><seg>adoṣaḥ</seg></choice></lem><rdg wit="#ŚEd #IEd #KEd #M">tanmatasyānabhyupagamād adoṣaḥ | </rdg><rdg wit="#D #K #V #O #K2">tanmatasyānabhyupagamād adoṣaḥ </rdg><rdg wit="#A #V3">na matasyānabhyupagamād adoṣaḥ </rdg><rdg wit="#L">tanmatasyānabhyupagamāt_ adoṣaḥ | </rdg><rdg wit="#G1 #G2">tanmatasyānabhyupagamād adoṣaḥ || </rdg><rdg wit="#P">tanmatasyānabhyupagamān adoṣaḥ </rdg><rdg wit="#H #CT">tanmatasyānabhyupagamād evādoṣaḥ | </rdg><rdg wit="#T">tanmatasyānabhyupagamād evādoṣaḥ </rdg><rdg wit="#V2">tanmatasyānabhu|pagamād adoṣaḥ </rdg></app> |
+<app n="9"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #G1 #G2 #M #P #T #CT #V2 #V3 #K2">kevalaṃ</lem><rdg wit="#K #V">kevala </rdg><rdg wit="#H">kevalaṃ dravyaṃ </rdg></app>
+yad asmākaṃ
+<app n="11"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #G1 #G2 #M #P #H #T #CT #V2 #V3 #K2">dravyaṃ</lem><rdg wit="#L">dravyam iti </rdg></app>
+<app n="12"><lem>tad <choice><seg>anyair api</seg><seg>anyair</seg></choice></lem><rdg wit="#ŚEd #IEd">anyair </rdg><rdg wit="#KEd #D #K #V #A #O #L #G1 #G2 #M #P #V2 #V3 #K2">tad anyair </rdg><rdg wit="#H #T #CT">tad anyair apy </rdg></app>
+<app n="13"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #H #T #CT #V2 #V3 #K2">evam</lem><rdg wit="#G1 #G2">avem </rdg><rdg wit="#M #P">[om.]</rdg></app>
+<app n="14"><lem wit="#ŚEd #IEd #KEd #D #A #O #G1 #G2 #M #P #H #T #CT #V2 #V3 #K2">abhidhīyata</lem><rdg wit="#K #V">abhidhāyata </rdg><rdg wit="#L">abhidhīyate </rdg></app>
+iti
+<app n="16"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #T #CT #V3 #K2">evam</lem><rdg wit="#H">evā</rdg><rdg wit="#V2">eṣam </rdg></app>
+<app n="17"><lem wit="#ŚEd #IEd #KEd #D #K #A #O #L #M #P #T #CT #V3 #K2">atropanyāsaḥ</lem><rdg wit="#V">aṃtropanyāsaḥ </rdg><rdg wit="#G1 #G2">atropanyāsāḥ || </rdg><rdg wit="#H">tropanyāsaḥ | </rdg><rdg wit="#V2">aṃtropanyāsaḥ | </rdg></app> |
+<app n="18"><lem wit="#ŚEd #IEd #D #M #P #H #T #CT #K2">yad vā</lem><rdg wit="#KEd #O #L #G1 #G2 #V2">yac ca </rdg><rdg wit="#K #V">yad vāc ca </rdg><rdg wit="#A #V3">yad vā ca </rdg></app>
+bhāṣyānusāreṇa
+<app n="20"><lem wit="#ŚEd #IEd #KEd #D #K #V #L #M #H #T #K2">svarūpānyathātvānāpatiḥ</lem><rdg wit="#A">skarūpānyathātvānāpatti</rdg><rdg wit="#O">svarūpānyathā tv anāpattiḥ </rdg><rdg wit="#G1 #G2">svarūpānyathāt tānāpapaptiḥ || </rdg><rdg wit="#P">svarūpānyathātvārnāpatir </rdg><rdg wit="#CT">svarūpānyathā </rdg><rdg wit="#V2">svarūpānyathāt tānāpayattiḥ </rdg><rdg wit="#V3">svarūpānyathātvānāpatti</rdg></app>
+<app n="21"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V2 #V3 #K2">vikārabhede</lem><rdg wit="#CT">[om.]</rdg></app>
+<app n="22"><lem wit="#ŚEd #IEd #Ked #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V2 #V3 #K2">'pi</lem><rdg wit="#CT">[om.]</rdg></app>
+<app n="23"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V2 #V3 #K2">nityatvaṃ</lem><rdg wit="#CT">[om.]</rdg></app>
+<app n="24"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #K2">vivakṣitam</lem><rdg wit="#G1 #G2 #V2">vivakṣim a</rdg><rdg wit="#CT">[om.]</rdg><rdg wit="#V3">vivakṣitany </rdg></app>
+<app n="25"><lem wit="#L #H #T">atreti</lem><rdg wit="#ŚEd #IEd #KEd #D #K #V #A #O #V3 #K2">eveti </rdg><rdg wit="#G1 #G2 #V2">treti </rdg><rdg wit="#M #P">ity atreti </rdg><rdg wit="#CT">[om.]</rdg></app>
+<app n="26"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #CT #V2 #V3 #K2">sarvatra</lem><rdg wit="#T">tat sarvvatra </rdg></app>
+<app n="27"><lem wit="#ŚEd #IEd #KEd #D #K #V #O #L #G1 #G2 #M #P #H #T #V2 #K2">tatsiddhiḥ</lem><rdg wit="#A #V3">latsiddhiḥ </rdg><rdg wit="#CT">siddhiḥ | </rdg></app> || 1 ||
+            </p>
+            <p>
+<app n="0"><lem wit="#ŚEd #IEd #O #L #M #P #H #T #CT">evaṃ</lem><rdg wit="#KEd #D #K #V #A #G1 #G2 #V2 #V3 #K2">paraṃ </rdg></app>
+<app n="6"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #H #T #CT #V2 #V3 #K2">darśanāntarā</lem><rdg wit="#M">darśanāṃtareṣv api </rdg><rdg wit="#P">darśanāṃtareṣv api¦ </rdg></app><app n="25"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #T #CT #V3 #K2">śrayaṇenoddiṣṭeṣu</lem><rdg wit="#G1 #G2">śravaṇenodiṣṭagedy </rdg><rdg wit="#M">śrayenoddiṣṭeṣv </rdg><rdg wit="#P">śrayaṇoddiṣṭeṣv </rdg><rdg wit="#H">śrayeṇoddiṣṭeṣv </rdg><rdg wit="#V2">śruyaṇenoddiṣṭoghy </rdg></app>
+api
+<app n="49"><lem wit="#ŚEd #IEd #D #K #V #O #L #G1 #G2 #M #P #H #T #CT">dravyabhedeṣu</lem><rdg wit="#KEd #A #V3 #K2">bhedeṣu </rdg><rdg wit="#V2">dravyabhedeyyu </rdg></app>
+<app n="63"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #M #P #H #T #CT #V3 #K2">svasiddhāntāśrayeṇa</lem><rdg wit="#K #V">svasiddhānāṃ śrayeṇa </rdg><rdg wit="#G1 #G2 #V2">svasiddhaṃ | tāśrayaṇe </rdg></app>
+<app n="84"><lem wit="#ŚEd #IEd #KEd #D #O #L #H #T #CT #K2">sārvatrikīṃ</lem><rdg wit="#K #V">sārvatrikāṃ </rdg><rdg wit="#A #V3">sārvavrikīṃ </rdg><rdg wit="#G1 #G2 #V2">sāvaṃkrikīṃ </rdg><rdg wit="#M">svābhāvikīṃ </rdg><rdg wit="#P">svabhāvikāṃ </rdg></app>
+<app n="100"><lem wit="#ŚEd #IEd #KEd #A #O #L #M #H #CT #V3 #K2">dravyapadārthavyavasthāṃ</lem><rdg wit="#D">dravyapapadārthavyavasthāṃ </rdg><rdg wit="#K #V">dravyapapadārthavyavyavasthāṃ </rdg><rdg wit="#G1 #G2 #V2">dravyapadārthavyavasthī </rdg><rdg wit="#P">dravyapadārthavyavasthā </rdg><rdg wit="#T">dravyapadārtthavyavasthā </rdg></app>
+kartum
+<app n="135"><lem wit="#KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #CT #V2 #V3 #K2">āha</lem><rdg wit="#ŚEd #IEd">āha—</rdg></app> ―
+            </p>
+            <lg>
+<l><app n="0"><lem wit="#REd #ŚEd #IEd #KEd #K #V #L #H #T #CT #D #A #O #M #P #K2 #V3">satyaṃ</lem><rdg wit="#REd-s #REd-M4 #REd-M12">satya</rdg><rdg wit="#G1 #G2 #V2">satvaṃ </rdg></app>
+    <app n="8"><lem wit="#REd #REd-s #REd-M4 #REd-M12 #ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #CT #V2 #V3 #K2">vastu</lem><rdg wit="#G1 #G2">vakra </rdg></app>
+tadākārair
+<app n="24"><lem wit="#REd #REd-s #REd-M4 #REd-M12 #ŚEd #IEd #KEd #D #K #V #O #L #G1 #G2 #M #P #H #T #CT #V2 #K2">asatyair</lem><rdg wit="#A #V3">asatyer </rdg></app>
+<app n="32"><lem wit="#REd #REd-s #REd-M4 #REd-M12 #ŚEd #IEd #KEd #D #K #V #O #L #G1 #G2 #M #P #T #CT #K2">avadhāryate</lem><rdg wit="#A">evadhāryate </rdg><rdg wit="#H">avadhīryate | </rdg><rdg wit="#V2">avadhāryato | </rdg><rdg wit="#V3">evadhāryate || </rdg></app> |</l>
+<l>asatyopādhibhiḥ
+<app n="57"><lem wit="#REd #REd-s #REd-M4 #REd-M12 #ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V2 #V3 #K2">śabdaiḥ</lem><rdg wit="#CT">śaṇḍaiḥ </rdg></app>
+satyam 
+<app n="71"><lem wit="#REd #REd-s #REd-M4 #REd-M12 #ŚEd #IEd #KEd #D #O #L #G1 #G2 #M #H #T #CT #V2 #K2">evābhidhīyate</lem><rdg wit="#K #V">evābhidhāyate </rdg><rdg wit="#A #V3">evābhidhāyale </rdg><rdg wit="#P">evabhidhīyate 2 </rdg></app> || 2 ||</l>
+            </lg>
+            <p>
+iha
+<app n="5"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #CT #V3 #K2">sarvaśabdānāṃ</lem><rdg wit="#V2">rvaśabdānāṃ </rdg></app>
+<app n="19"><lem wit="#ŚEd #IEd #KEd #D #A #O #P #H #T #V3 #K2">pāramārthikaṃ</lem><rdg wit="#K #V #L #G1 #G2 #V2">paramārthikaṃ </rdg><rdg wit="#M">pāramārthitkaṃ </rdg><rdg wit="#CT">pāramā-rthika </rdg></app>
+<app n="33"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #G1 #G2 #M #P #H #T #V2 #V3 #K2">tattvaṃ</lem><rdg wit="#K">tatva </rdg><rdg wit="#V">tatra </rdg><rdg wit="#CT">[om.]</rdg></app>
+<app n="40"><lem wit="#IEd #KEd #D #K #V #O #L #G1 #G2 #M #P #T #V2 #V3 #K2">sākṣāt</lem><rdg wit="#ŚEd #H #CT">[om.]</rdg><rdg wit="#A">sākṣyāt </rdg></app>
+<app n="48"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #H #T #V3 #K2">spraṣṭum</lem><rdg wit="#G1 #G2 #V2">praṣṭam </rdg><rdg wit="#P">spraṣṭu2bh </rdg><rdg wit="#CT">[om.]</rdg></app>
+<app n="57"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #H #T #V2 #V3 #K2">aśaktānām</lem><rdg wit="#P">aśabdānām </rdg><rdg wit="#CT">n</rdg></app>
+<app n="67"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #G1 #G2 #M #P #T #V2 #V3 #K2">anekopādhiviṣayanihita</lem><rdg wit="#O">anekopādhiviṣayanihitānāṃ </rdg><rdg wit="#L">anekopādhiviṣayavihita</rdg><rdg wit="#H">anekāpādhiviṣayanihita</rdg><rdg wit="#CT">ihita</rdg></app>padānāṃ
+<app n="100"><lem><choice><seg>tadrūpāliṅganaṃ</seg><seg>tadrūpolliṅganaṃ</seg></choice></lem><rdg wit="#ŚEd #IEd #KEd">tadrūpāliṅganaṃ </rdg><rdg wit="#D #A #O #L #G1 #G2 #V2 #V3 #K2">tadrūpāliṃganaṃ </rdg><rdg wit="#K">tadbhayāliṃganaṃ </rdg><rdg wit="#V">tadbhayāliṃganaṃ na </rdg><rdg wit="#M">tadrūpālliṃgānāṃ </rdg><rdg wit="#P">tadrūpāliṃgānāṃ </rdg><rdg wit="#H #T">tadrūpolliṃganaṃ </rdg><rdg wit="#CT">tadrūpolliṅganaṃ </rdg></app>
+vyavahāre
+<app n="130"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #T #CT #V2 #V3 #K2">samālakṣyate</lem><rdg wit="#M #P">samālakṣya </rdg><rdg wit="#H">samātmakṣyate | </rdg></app> |
+<app n="144"><lem wit="#ŚEd #IEd #KEd #D #O #L #G1 #G2 #M #P #H #T #CT #V2 #K2">upādhīnāṃ</lem><rdg wit="#K #V #A #V3">upādhānāṃ </rdg></app>
+<app n="153"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #H #T #CT #V3 #K2">cāgamāpāya</lem><rdg wit="#L #G1 #G2">vāgamāpāya</rdg><rdg wit="#M #P">cāgamāpāya </rdg><rdg wit="#V2">cāgayāyāya</rdg></app><app n="164"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #H #T #CT #V2 #V3 #K2">vaśavidhuritanija</lem><rdg wit="#G1 #G2">vaśavidhuritam ila</rdg><rdg wit="#M #P">eva śabdavidhur iti nija</rdg></app><app n="188"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #T #CT #V2 #V3 #K2">svarūpāṇām</lem><rdg wit="#H">svarūpāṇā sākṣāt_ </rdg></app>
+<app n="205"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #T #CT #V3 #K2">arthisārtha</lem><rdg wit="#G1 #G2 #V2">avisārtha</rdg><rdg wit="#H">marthisārtha</rdg></app><app n="215"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #M #P #H #T #CT #K2">samāśāpūraṇa</lem><rdg wit="#K">samāśāsaraṇa</rdg><rdg wit="#V">samāśāsara</rdg><rdg wit="#G1 #G2 #V2 #V3">samāsāpūraṇa</rdg></app>pratihata<app n="236"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #CT #V3 #K2">śaktitvān</lem><rdg wit="#G1 #G2">śaktiḥ || vān </rdg><rdg wit="#V2">śaktiḥ vāt</rdg></app>
+<app n="247"><lem wit="#ŚEd #IEd #KEd #D #K #V #O #L #G1 #G2 #M #P #H #T #CT #K2">na</lem><rdg wit="#A #V3">naṃ </rdg><rdg wit="#V2">ma </rdg></app>
+<app n="251"><lem wit="#ŚEd #IEd #KEd #D #K #V #O #L #G1 #G2 #M #P #H #T #CT #V2 #K2">tāvaty</lem><rdg wit="#A #V3">nāvaty </rdg></app>
+eva paryavasānam ity upalakṣita<app n="289"><lem wit="#ŚEd #IEd #KEd #D #M #T #CT #K2">rūpapṛṣṭhapātinaḥ</lem><rdg wit="#K #V #H">rūpapṛṣṭapātinaḥ </rdg><rdg wit="#A">rūpapṛṣṭavātinaḥ </rdg><rdg wit="#O #L #V2">pṛṣṭhapātinaḥ </rdg><rdg wit="#G1 #G2">pṛchapātinaḥ || </rdg><rdg wit="#P">rūpapṛṣṭhapātitaḥ </rdg><rdg wit="#V3">rūpadṛṣṭavātinaḥ </rdg></app>
+<app n="306"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #H #T #CT #V2 #V3 #K2">śabdā</lem><rdg wit="#P">śabda </rdg></app>
+<app n="312"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #M #P #H #T #CT #V3 #K2">vyavasthāpyante</lem><rdg wit="#L">vyavasthāpane </rdg><rdg wit="#G1 #G2">vyavasthāpyane </rdg><rdg wit="#V2">vyavasthāpyate </rdg></app> |
+<app n="327"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #H #T #V3 #K2">avadhṛtarūpaniveśitvāc</lem><rdg wit="#G1 #G2 #V2">avavṛtarūpaniveśitvāc </rdg><rdg wit="#P">avadhūtarūpaniveśitvāc </rdg><rdg wit="#CT">a </rdg></app>
+<app n="349"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V2 #V3 #K2">ca</lem><rdg wit="#CT">[om.]</rdg></app>
+<app n="352"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V2 #K2">śabdānām</lem><rdg wit="#CT">[om.]</rdg><rdg wit="#V3">śabdānāny </rdg></app>
+<app n="362"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #T #V2 #V3 #K2">avadhāraṇānusāram</lem><rdg wit="#M">avadhāraṇāt tu sāmye </rdg><rdg wit="#P">avadhāraṇānusāramye </rdg><rdg wit="#H">avadhāraṇanusāram </rdg><rdg wit="#CT">asāram </rdg></app>
+<app n="385"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #H #T #CT #V2 #V3 #K2">arthe</lem><rdg wit="#M #P">rthe </rdg></app>
+<app n="390"><lem><choice><seg>pratipattiḥ</seg><seg>pravṛttiḥ</seg></choice></lem><rdg wit="#ŚEd #IEd">pravṛttiḥ, </rdg><rdg wit="#KEd">prakṛtir </rdg><rdg wit="#D #K #V #A #O #L #G1 #G2 #V2 #V3 #K2">prakṛti </rdg><rdg wit="#M #H">pratipattiḥ | </rdg><rdg wit="#P">pratipattiḥ </rdg><rdg wit="#T #CT">pravṛttiḥ </rdg></app> |
+<app n="401"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #H #T #CT #V2 #V3 #K2">avadhṛtiś</lem><rdg wit="#M #P">avadhṛtis</rdg></app>
+<app n="410"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #H #T #CT #V2 #V3 #K2">cākāradvāreṇa</lem><rdg wit="#G1">ca kāradvāreṇa </rdg><rdg wit="#G2">cākāradvariṇa </rdg><rdg wit="#M #P">vākāradvāreṇa </rdg></app>
+nirākārasya
+<app n="437"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #M #P #H #T #CT #V2 #V3 #K2">budhyupārohāyogāt</lem><rdg wit="#K #V">nudhyupārohāyogāt_ </rdg><rdg wit="#G1 #G2">vukṛyārohāyogāt_ </rdg></app> |
+<app n="455"><lem wit="#P #H #T">yathāpratyayaṃ ca</lem><rdg wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #V2 #V3 #K2">yathāpratyayaṃ </rdg><rdg wit="#G1 #G2">yathāpratyatyayaṃ </rdg><rdg wit="#M">yathāprātyayaṃ ca </rdg><rdg wit="#CT">yathāpratya-yas tv </rdg></app>
+<app n="475"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V2 #V3 #K2">bhedāvasāyasya</lem><rdg wit="#CT">abhedāvasāyasya </rdg></app>
+<app n="490"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #G1 #G2 #M #P #H #T #CT #V2 #K2">bādhyamānatvād</lem><rdg wit="#V3">dhādhyamānatvāt</rdg><rdg wit="#K #V">badhyamānatvāt</rdg></app>
+<app n="504"><lem wit=""><choice><seg>anupāyy</seg><seg>anuyāyy</seg></choice></lem><rdg wit="#ŚEd #IEd #KEd #D #K #V #A #G1 #G2 #H #T #V2 #K2">anuyāyy </rdg><rdg wit="#O">upādhy</rdg><rdg wit="#L">anupāyy </rdg><rdg wit="#M #P">anupādhy </rdg><rdg wit="#CT">anuyā-yy </rdg><rdg wit="#V3">danuyāy </rdg></app>
+<app n="513"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #M #P #H #T #CT #V3 #K2">abhinnam</lem><rdg wit="#K #V">abhivam </rdg><rdg wit="#G1 #G2 #V2">abhitvam </rdg></app>
+eva rūpaṃ 
+<app n="531"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #M #P #H #T #CT #V3 #K2">paramārthataḥ</lem><rdg wit="#O">paramārtthaḥ </rdg><rdg wit="#L #G1 #G2">paramārthaḥ || </rdg><rdg wit="#V2">paramārthaḥ </rdg></app> |
+tad eva brahmarūpaṃ
+<app n="564"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #H #T #V2 #V3 #K2">satyam</lem><rdg wit="#P">satyaṃ satyaṃ </rdg><rdg wit="#CT">satyam·</rdg></app> |
+            </p>
+            <p>
+syād etat |
+<app n="10"><lem wit="#ŚEd #IEd #KEd #D #K #V #O #L #M #P #H #T #CT #K2">upādhiṣu</lem><rdg wit="#A">upādhisvu </rdg><rdg wit="#G1 #G2 #V2">upādhiśu </rdg><rdg wit="#V3">upādhis tu </rdg></app>
+<app n="21"><lem wit="#ŚEd #IEd #KEd #D #K #V #O #L #M #P #H #T #CT #V2 #V3 #K2">śabdānāṃ</lem><rdg wit="#A">śobdānāṃ </rdg><rdg wit="#G1 #G2">bdānāṃ </rdg></app>
+<app n="30"><lem wit="#ŚEd #IEd #KEd #D #K #A #O #L #G1 #G2 #M #P #H #V2 #V3 #K2">viśrāntyabhāve</lem><rdg wit="#V">viśrāṃtyabhāvo </rdg><rdg wit="#T">viśrānyabhāve </rdg><rdg wit="#CT">viśrāntyabhā </rdg></app>
+<app n="45"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V2 #V3 #K2">śabdārthopādhitvaṃ</lem><rdg wit="#CT">[om.]</rdg></app>
+<app n="63"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V2 #V3 #K2">teṣāṃ</lem><rdg wit="#CT">[om.]</rdg></app>
+<app n="69"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V2 #V3 #K2">na</lem><rdg wit="#CT">[om.]</rdg></app>
+<app n="72"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #V2 #V3 #K2">syāt</lem><rdg wit="#CT">sya</rdg></app> |
+<app n="77"><lem wit="#ŚEd #IEd #KEd #D #K #A #O #L #M #P #H #T #V3 #K2">avācyasya</lem><rdg wit="#V">avātyasya </rdg><rdg wit="#G1 #G2 #V2">avādhyasya </rdg><rdg wit="#CT"/></app>
+<app n="87"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #T #CT #V2 #V3 #K2">tadupādhitvāyogād</lem><rdg wit="#G1 #G2">la upādhitvāyogāt_ </rdg><rdg wit="#H">tadupodhitvāyogād </rdg></app>
+ity etad
+<app n="113"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #P #V3 #K2">vicārayituṃ</lem><rdg wit="#G1">vivārayittum </rdg><rdg wit="#G2 #V2">vivārayitum </rdg><rdg wit="#M">vicāyarayitum </rdg><rdg wit="#H">vibhicārayitum </rdg><rdg wit="#T #CT">vyabhicārayitum </rdg></app>
+āha ―
+            </p>
+            <lg>
+                <l>
+<app n="0"><lem wit="#REd #ŚEd #IEd #KEd #K #V #L #G1 #G2 #P #H #T #CT #V2 #V3 #K2">adhruveṇa</lem><rdg wit="#D #A #O #M">|| adhruveṇa </rdg></app>
+nimittena 
+<app n="19"><lem wit="#REd #ŚEd #IEd #KEd #D #K #V #O #L #G1 #G2 #M #P #H #T #CT #V2 #K2">devadatta</lem><rdg wit="#A #V3">devadattaṃ </rdg></app><app n="30"><lem wit="#REd #ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #H #T #CT #V2 #V3 #K2">gṛhaṃ</lem><rdg wit="#P">grahaṃ </rdg></app>
+yathā |
+                </l>
+                <l>
+<app n="42"><lem wit="#REd #ŚEd #IEd #KEd #D #K #V #O #L #M #H #T #CT #V2 #K2">gṛhītaṃ</lem><rdg wit="#A #V3">gṛhīta</rdg><rdg wit="#G1 #G2">gṛhīptaṃ </rdg><rdg wit="#P">grahītaṃ </rdg></app>
+gṛhaśabdena śuddham
+<app n="70"><lem wit="#REd #ŚEd #IEd #KEd #D #A #O #L #M #P #H #T #CT #V2 #V3 #K2">evābhidhīyate</lem><rdg wit="#K">evābhidhāyate || </rdg><rdg wit="#V">evābhidhāyate </rdg><rdg wit="#G1 #G2">evābhidhīyato </rdg></app> || 3 ||
+                </l>
+            </lg>
+            <p>
+<app n="0"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G1 #G2 #H #T #CT #V2 #V3 #K2">ado</lem><rdg wit="#M #P">ādau </rdg></app>
+<app n="7"><lem wit="#ŚEd #IEd #KEd #D #K #A #O #L #M #P #H #T #CT #K2">devadattasya</lem><rdg wit="#V">devadatasya </rdg><rdg wit="#G1 #G2 #V2">dedevadattasya </rdg><rdg wit="#V3">pdevadattasya </rdg></app>
+gṛhaṃ
+<app n="30"><lem wit="#ŚEd #IEd #KEd #D #K #V #O #L #G1 #G2 #M #P #H #T #CT #V2 #K2">yatrāsau</lem><rdg wit="#A #V3">yatrausau </rdg></app>
+kākaḥ
+<app n="44"><lem wit="#IEd #KEd #D #K #V #O #L #G1 #G2 #M #H #T #CT #V2 #K2">prativasatī</lem><rdg wit="#ŚEd">prativasati </rdg><rdg wit="#A #V3">pratīvasatī</rdg><rdg wit="#P">prasatī</rdg></app><app n="56"><lem wit="#IEd #KEd #D #K #V #A #O #L #G1 #G2 #M #P #H #T #CT #V2 #V3 #K2">ty</lem><rdg wit="#ŚEd">ity </rdg></app>
+<app n="60"><lem wit="#D #K #V #A #O #L #M #P #H #T #K2">atra niyata</lem><rdg wit="#ŚEd #IEd #KEd">atrāniyata</rdg><rdg wit="#G1 #G2">anuniyata</rdg><rdg wit="#CT">atra niyatva</rdg><rdg wit="#V2">a_uniyata</rdg><rdg wit="#V3">arthe tra niyata</rdg></app><app n="76"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G2 #M #P #H #V2 #V3 #K2">svāmika</lem><rdg wit="#G1">svā</rdg><rdg wit="#T">svāmi</rdg><rdg wit="#CT">svā-mi</rdg></app><app n="83"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G2 #H #T #K2">gṛhopalakṣaṇāyopalakṣaṇabhūtasya</lem><rdg wit="#G1">[om.]</rdg><rdg wit="#M">grahopalakṣaṇabhūtasya </rdg><rdg wit="#P">grahopa¦lakṣaṇabhūtasya </rdg><rdg wit="#CT">gṛhāyopalakṣaṇāyo</rdg><rdg wit="#V2">gṛhopalakṣaṇayopalakṣaṇabhūtasya </rdg><rdg wit="#V3">gṛhīpalakṣaṇāyopalakṣaṇabhūtasya </rdg></app><app n="115"><lem wit="#ŚEd #IEd #H #T">kākasyotpatite</lem><rdg wit="#KEd #D #K #V #O #L #G2 #M #P #V2">kākasya utpatite </rdg><rdg wit="#A #V3 #K2">kākasya utpaṃtite </rdg><rdg wit="#G1 #CT">[om.]</rdg></app>
+<app n="133"><lem wit="#ŚEd #IEd #Ked #D #K #V #A #O #L #G2 #M #P #H #T #V2 #V3 #K2">pi</lem><rdg wit="#G1 #CT">[om.]</rdg></app>
+<app n="137"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #V2 #V3 #K2">tasmin</lem><rdg wit="#G1 #CT">[om.]</rdg><rdg wit="#G2">tasmij </rdg></app>
+<app n="144"><lem wit="#ŚEd #IEd #KEd #D #M #P #H #T #V3 #K2">upalakṣaṇasya</lem><rdg wit="#K #V #L #G2 #V2">upalakṣaṇasva</rdg><rdg wit="#A">upalakṣyaṇasya </rdg><rdg wit="#O">upalaṇatvasya </rdg><rdg wit="#G1">[om.]</rdg><rdg wit="#CT">palakṣaṇasya </rdg></app>
+<app n="160"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G2 #M #P #H #T #CT #V2 #V3 #K2">kṛtatvād</lem><rdg wit="#G1">[om.]</rdg></app>
+<app n="169"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #L #G2 #M #P #T #CT #V2 #V3 #K2">adhruvatvam</lem><rdg wit="#O">adhruvam </rdg><rdg wit="#G1">[om.]</rdg><rdg wit="#H">adhruvatmam </rdg></app>
+<app n="180"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #L #M #P #H #T #CT #V2 #V3 #K2">anityatvam</lem><rdg wit="#O">anityam </rdg><rdg wit="#G1 #G2">[om.]</rdg></app>
+<app n="191"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G2 #M #P #H #T #CT #V2 #V3 #K2">iti</lem><rdg wit="#G1">[om.]</rdg></app>
+<app n="195"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G2 #T #CT #V3 #K2">tadanādareṇaiva</lem><rdg wit="#G1">[om.]</rdg><rdg wit="#M #P">tadādareṇaiva </rdg><rdg wit="#H">tadanādareṇeva </rdg><rdg wit="#V2">ladanādareṇaiva </rdg></app>
+<app n="210"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G2 #H #T #CT #V2 #V3 #K2">tadupalakṣitaṃ</lem><rdg wit="#G1">[om.]</rdg><rdg wit="#M #P">tadupalakṣaṇa</rdg></app>
+<app n="225"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G2 #H #T #CT #V2 #V3 #K2">gṛham</lem><rdg wit="#G1">[om.]</rdg><rdg wit="#M">gṛ¦hītam </rdg><rdg wit="#P">gṛhītam </rdg></app>
+<app n="233"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #G2 #M #P #H #T #V2 #V3 #K2">abhidhīyate</lem><rdg wit="#K #V">abhidhāyate </rdg><rdg wit="#G1">[om.]</rdg><rdg wit="#CT">adhīyate | </rdg></app>
+<app n="243"><lem wit="#ŚEd #IEd #KEd #A #O #L #G2 #H #T #CT #V2 #V3 #K2">gṛhaśabdena</lem><rdg wit="#D">gṛhaśabdena tathā </rdg><rdg wit="#K #V">gṛhaśabdena thā </rdg><rdg wit="#G1">[om.]</rdg><rdg wit="#M #P">gṛhasaṃbaṃdhena </rdg></app>
+<app n="263"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #M #P #H #T #CT #V3 #K2">yathā</lem><rdg wit="#O #L #G2 #V2">tathā </rdg><rdg wit="#G1">[om.]</rdg></app>
+<app n="268"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #L #M #P #T #CT #V3 #K2">tathā</lem><rdg wit="#O #G2 #V2">yathā </rdg><rdg wit="#G1 #H">[om.]</rdg></app>
+<app n="273"><lem wit="#IEd #M #P #H #T #CT">prakṛtasambandhād</lem><rdg wit="#ŚEd">prakṛtisaṃbandhād </rdg><rdg wit="#KEd">prakṛtisambandhād </rdg><rdg wit="#D #K #V #A #O #L #V2 #V3 #K2">prakṛtisaṃbaṃdhād </rdg><rdg wit="#G1">[om.]</rdg><rdg wit="#G2">vrakṛtisaṃbaṃdhād </rdg></app>
+<app n="290"><lem wit="#ŚEd #IEd #KEd #D #A #O #M #P #H #T #V3 #K2">asatyopādhyupalakṣitaṃ</lem><rdg wit="#K #V">asatyopādhyapalakṣitaṃ </rdg><rdg wit="#L">asatyāyādhyupalakṣitaṃ </rdg><rdg wit="#G1">[om.]</rdg><rdg wit="#G2">asahyāpādhyupalakṣitaṃ </rdg><rdg wit="#CT">apatyo-pādhyupalakṣitaṃ </rdg><rdg wit="#V2">asatyāpādhyupalakṣitaṃ </rdg></app>
+<app n="312"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G2 #M #P #H #T #CT #V2 #V3 #K2">satyam</lem><rdg wit="#G1">[om.]</rdg></app>
+<app n="319"><lem wit="#ŚEd #IEd #KEd #D #K #V #O #L #G2 #M #P #T #CT #K2">upādhirūpānādareṇa</lem><rdg wit="#H">upadhirūpānādareṇa</rdg><rdg wit="#A #V3">upādhirūpānanādareṇa </rdg><rdg wit="#G1">[om.]</rdg><rdg wit="#V2">upādhirūpānādareṇe </rdg></app>
+<app n="340"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #L #G2 #M #P #H #T #CT #V2 #V3 #K2">śabdair</lem><rdg wit="#O">śabder </rdg><rdg wit="#G1">[om.]</rdg></app>
+<app n="347"><lem>abhidhīyata ity <choice><seg>abhidhīyamānasyāpy</seg><seg>anabhidhīyamānasyāpy</seg></choice></lem><rdg wit="#ŚEd #IEd #H #T">abhidhīyata ity anabhidhīyamānasyāpy </rdg><rdg wit="#KEd #D #A #O #L #G2 #V2 #V3 #K2">abhidhīyamānasyāpy </rdg><rdg wit="#K #V">abhidhāyamānasyāpy </rdg><rdg wit="#G1">[om.]</rdg><rdg wit="#M">abhidhīyata iti | abhidhīyamānasyā</rdg><rdg wit="#P">abhidhīyata iti abhidhīyamānasyā</rdg><rdg wit="#CT">abhidhīyateityanabhidhīyamānasyā </rdg></app>
+<app n="380"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G2 #T #V2 #V3 #K2">abhidhānaviṣayaniyāmakatvād</lem><rdg wit="#G1">[om.]</rdg><rdg wit="#M #P">bhidhānaviṣayaniyāmakatvād </rdg><rdg wit="#H">abhidhānaviṣayaniyamakatvād </rdg><rdg wit="#CT"/></app>
+<app n="406"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #G2 #M #P #T #V2 #V3 #K2">upalakṣaṇatve</lem><rdg wit="#O">upalakṣaṇatva</rdg><rdg wit="#L #H">upalakṣaṇe </rdg><rdg wit="#G1 #CT">[om.]</rdg></app>
+<app n="420"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G2 #M #P #H #T #CT #V2 #V3 #K2">saty</lem><rdg wit="#G1">[om.]</rdg></app>
+<app n="425"><lem><choice><seg>upādhitva</seg><seg>upādhitvaṃ</seg></choice></lem><rdg wit="#ŚEd #O #L #G2 #H #CT #V2">upādhitvaṃ </rdg><rdg wit="#IEd #KEd #D #K #V #A #V3 #K2">upādhitva</rdg><rdg wit="#G1">[om.]</rdg><rdg wit="#M #P">upādhi</rdg><rdg wit="#T">upādhitvan </rdg></app>
+<app n="435"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #H #T #CT #V3 #K2">nidarśanena</lem><rdg wit="#K #V #V2">niṃdarśanena </rdg><rdg wit="#G1">[om.]</rdg><rdg wit="#G2">nidarśanebha </rdg><rdg wit="#M #P">darśanena </rdg></app>
+<app n="448"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G2 #M #P #H #T #CT #V2 #V3 #K2">samarthitam</lem><rdg wit="#G1">[om.]</rdg></app> |
+<app n="459"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G2 #M #P #H #T #CT #V2 #V3 #K2">tathā</lem><rdg wit="#G1">[om.]</rdg></app>
+<app n="464"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G2 #M #P #H #T #CT #V2 #V3 #K2">hi</lem><rdg wit="#G1">[om.]</rdg></app>
+<app n="467"><lem wit="#ŚEd #IEd #KEd #D #A #O #L #G2 #M #T #CT #V3 #K2">ktaktavatū</lem><rdg wit="#K #V #V2">ktaktavat_ </rdg><rdg wit="#G1">[om.]</rdg><rdg wit="#P">ktaktavas tu </rdg><rdg wit="#H">kṛkṛvatta </rdg></app>
+<app n="481"><lem wit="#KEd #D #L #G2 #M #T #CT #V2">niṣṭhe</lem><rdg wit="#ŚEd #IEd">niṣṭhā’ </rdg><rdg wit="#K #V">nise</rdg><rdg wit="#A #P #H #V3 #K2">niṣṭe</rdg><rdg wit="#O">niṣṭhā </rdg><rdg wit="#G1">[om.]</rdg></app><app n="487"><lem wit="#KEd #D #K #V #A #L #G2 #M #P #H #T #CT #V2 #V3 #K2">ty</lem><rdg wit="#ŚEd #IEd #O">ity </rdg><rdg wit="#G1">[om.]</rdg></app>
+<app n="491"><lem wit="#ŚEd #IEd #D #K #V #A #O #L #H #T #CT #V3 #K2">anubandhasyā</lem><rdg wit="#KEd">anubandhasya </rdg><rdg wit="#G1">[om.]</rdg><rdg wit="#G2">anubaṃyyā</rdg><rdg wit="#M #P">ananubaṃdhasyā</rdg><rdg wit="#V2">anubaṃdhathā</rdg></app><app n="505"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #M #P #H #T #CT #V2 #V3 #K2">prayogasamavāyitvād</lem><rdg wit="#G1">[om.]</rdg><rdg wit="#G2">prayogasamāvāyitvād </rdg></app>
+<app n="525"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #G2 #H #T #CT #V2 #K2">adhruvasyopalakṣaṇatve</lem><rdg wit="#L">radhruvasyopalakṣaṇe </rdg><rdg wit="#G1">[om.]</rdg><rdg wit="#M #P">adhyupalakṣaṇatvena </rdg><rdg wit="#V3">adhrurvesyopalakṣaṇatve </rdg></app>
+<app n="551"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G2 #M #P #H #T #CT #V2 #V3 #K2">tadrahitasya</lem><rdg wit="#G1">[om.]</rdg></app>
+<app n="564"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G2 #M #P #H #T #CT #V2 #V3 #K2">śudhasya</lem><rdg wit="#G1">[om.]</rdg></app>
+<app n="572"><lem wit="#ŚEd #IEd #KEd #D #K #A #O #L #G2 #M #P #T #CT #V2 #V3 #K2">pratyayarūpasya</lem><rdg wit="#V">pratyayayarūpasya¦ </rdg><rdg wit="#G1">[om.]</rdg><rdg wit="#H">pratyayasvarūpasya </rdg></app>
+<app n="591"><lem wit="#IEd #KEd #D #K #V #A #O #L #M #P #H #T #CT #V3 #K2">saṃjñāprasaṅga</lem><rdg wit="#ŚEd">saṃjñā'prasaṅga </rdg><rdg wit="#G1">[om.]</rdg><rdg wit="#G2 #V2">saṃjñāṃ prasaṃga </rdg></app>
+<app n="608"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G2 #M #P #H #T #CT #V2 #V3 #K2">ity</lem><rdg wit="#G1">[om.]</rdg></app>
+<app n="612"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G2 #M #P #H #T #CT #V2 #V3 #K2">atredaṃ</lem><rdg wit="#G1">[om.]</rdg></app>
+<app n="620"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G2 #M #P #H #T #CT #V2 #V3 #K2">bhāṣye</lem><rdg wit="#G1">[om.]</rdg></app>
+<app n="626"><lem><choice><seg>darśanam</seg><seg>nidarśanam</seg></choice></lem><rdg wit="#ŚEd #IEd #O #L #H #T #CT">nidarśanam </rdg><rdg wit="#KEd #D #K #V #A #G2 #M #P #V2 #V3 #K2">darśanam </rdg><rdg wit="#G1">[om.]</rdg></app>
+<app n="637"><lem wit="#ŚEd #IEd #KEd #D #K #V #A #O #L #G2 #M #H #T #CT #V2 #V3 #K2">uktam</lem><rdg wit="#G1">[om.]</rdg><rdg wit="#P">upakṣaṃ </rdg></app> |
+            </p>
+        </body>
+    </text>
+</TEI>

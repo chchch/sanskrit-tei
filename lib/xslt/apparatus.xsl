@@ -9,7 +9,7 @@
 <xsl:template name="splitwit">
     <xsl:param name="mss" select="@wit"/>
         <xsl:if test="string-length($mss)">
-            <xsl:if test="not($mss=@wit)"><xsl:text> </xsl:text></xsl:if>
+            <xsl:if test="not($mss=@wit)"><xsl:text></xsl:text></xsl:if>
             <xsl:element name="span">
                  <xsl:attribute name="class">embedded msid</xsl:attribute>
                  <xsl:attribute name="lang">en</xsl:attribute>
@@ -60,9 +60,15 @@
 
 <xsl:template match="x:lem">
     <span class="lem-inline">
+        <xsl:call-template name="lang"/>
         <xsl:apply-templates/>
     </span>
 </xsl:template>
+
+<xsl:template match="x:app">
+        <xsl:apply-templates/>
+</xsl:template>
+
 <xsl:template match="x:rdg"/>
 
 <xsl:template name="apparatus">

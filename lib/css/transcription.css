@@ -35,7 +35,7 @@ div.lg {
             /*width: 100%;*/
             font-size: 1.4rem;
             line-height: 2rem;
-            padding: 0.5em 0 0.5em 1.5em;
+            padding: 0.5em 0 0.5em 0;
 }
 
 div.lg:first-child {
@@ -64,26 +64,40 @@ div.lg div.l {
 }
 
 div.l {
+    margin-left: 1rem;
 }
 
 div.versebottompadding {padding-bottom: 1em;
                        border:0;
 }
 
-span.choice::before {
+span.choice {
+    display: inline-flex;
+    flex-direction: column;
+    vertical-align: middle;
+    text-decoration: inherit;
+}
+
+.lem span.choice {
+    display: inline;
+    vertical-align: baseline;
+}
+
+.lem span.choice::before {
     content: '(';
     color: #CC0000;
 }
-span.choice::after {
+.lem span.choice::after {
     content: ')';
     color: #CC0000;
 }
-span.choice > span:not(:last-child)::after {
+.lem span.choice > span:not(:last-child)::after {
     content: '/';
     color: #CC0000;
 }
 
-span.unclear {font-style: italic;
+span.unclear {
+    font-style: italic;
 }
 
 span.lb {

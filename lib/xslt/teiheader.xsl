@@ -11,9 +11,9 @@
         <xsl:call-template name="lang"/>
         <xsl:apply-templates />
     </xsl:element>
-    <xsl:if test="//x:text">
+    <!--xsl:if test="//x:text">
         <h3>Text transcription</h3>
-    </xsl:if>
+    </xsl:if-->
 </xsl:template>
 
 <xsl:template match="x:titleStmt/x:title">
@@ -198,15 +198,17 @@
     <xsl:apply-templates select="x:msIdentifier"/>
     <xsl:apply-templates select="x:msContents"/>
     <xsl:apply-templates select="x:physDesc"/>
-    <section>
-        <h3>Contents</h3>
-        <xsl:apply-templates select="x:msContents/@class"/>
-        <xsl:apply-templates select="x:msContents/x:msItem"/>
-        <xsl:apply-templates select="x:msPart"/>
-        <xsl:if test="x:msPart">
-            <hr/>
-        </xsl:if>
-    </section>
+    <xsl:if test="x.msItem">
+        <section>
+            <h3>Contents</h3>
+            <xsl:apply-templates select="x:msContents/@class"/>
+            <xsl:apply-templates select="x:msContents/x:msItem"/>
+            <xsl:apply-templates select="x:msPart"/>
+            <xsl:if test="x:msPart">
+                <hr/>
+            </xsl:if>
+        </section>
+    </xsl:if>
     <xsl:apply-templates select="x:history"/>
     <xsl:apply-templates select="x:additional"/>
 </xsl:template>
