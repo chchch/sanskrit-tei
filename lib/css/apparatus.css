@@ -67,6 +67,7 @@ section div.wide {
     font-variant: small-caps;
     font-size: 0.8em;
     margin-right: 0.2rem;
+    word-break: normal;
 }
 
 .msid a:after {
