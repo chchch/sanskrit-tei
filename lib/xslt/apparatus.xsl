@@ -9,7 +9,7 @@
 <xsl:template name="splitwit">
     <xsl:param name="mss" select="@wit"/>
         <xsl:if test="string-length($mss)">
-            <xsl:if test="not($mss=@wit)"><xsl:text></xsl:text></xsl:if>
+            <!--xsl:if test="not($mss=@wit)"><xsl:text>,</xsl:text></xsl:if-->
             <xsl:element name="span">
                  <xsl:attribute name="class">embedded msid</xsl:attribute>
                  <xsl:attribute name="lang">en</xsl:attribute>
@@ -17,7 +17,15 @@
                                             concat($mss,' '),
                                           ' ')"/>
                  <xsl:variable name="cleanstr" select="substring-after($msstring,'#')"/>
-                 <xsl:apply-templates select="/x:TEI/x:teiHeader/x:fileDesc/x:sourceDesc/x:listWit/x:witness[@xml:id=$cleanstr]/x:idno/node()"/>
+                 <xsl:variable name="siglum" select="/x:TEI/x:teiHeader/x:fileDesc/x:sourceDesc/x:listWit/x:witness[@xml:id=$cleanstr]/x:abbr/node()"/>
+                 <xsl:choose>
+                    <xsl:when test="$siglum">
+                        <xsl:apply-templates select="$siglum"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="$cleanstr"/>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:element>
             <xsl:call-template name="splitwit">
                 <xsl:with-param name="mss" select=
@@ -71,6 +79,13 @@
 
 <xsl:template match="x:rdg"/>
 
+<xsl:template match="x:note[@place='apparatus']"/>
+
+<xsl:template match="x:abbr[@corresp]">
+    <xsl:variable name="cleanstr" select="substring-after(@corresp,'#')"/>
+    <xsl:apply-templates select="/x:TEI/x:teiHeader/x:fileDesc/x:sourceDesc/x:listWit/x:witness[@xml:id=$cleanstr]/x:abbr/node()"/>
+</xsl:template>
+
 <xsl:template name="apparatus">
     <xsl:for-each select=".//x:app">
         <span class="app">
@@ -80,6 +95,11 @@
             </xsl:for-each>
         </span>
         <xsl:text> </xsl:text>
+    </xsl:for-each>
+    <xsl:for-each select=".//x:note[@place='apparatus']">
+        <span class="note">
+            <xsl:apply-templates select="./node()"/>
+        </span>
     </xsl:for-each>
 </xsl:template>
 
